@@ -1,0 +1,2070 @@
+2020-07-09 15:39:05,906 INFO LoggingServer started
+2020-07-09 15:39:05,906 INFO Agent: Initializing Agent
+2020-07-09 15:39:05,906 DEBUG Agent: Using DB for scheds data
+2020-07-09 15:39:05,906 INFO TemplateResolverBuilder: Scheduler SLURM wasn't found. Output: Command sinfo --clusters="all" --format="%a %N %C %T %m %O %R %z" returned with exit status 1.
+Output: "sinfo" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:39:05,906 INFO TemplateResolverBuilder: Scheduler TORQUE wasn't found. Output: Command momctl -q ncpus returned with exit status 1.
+Output: "momctl" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:39:05,906 INFO TemplateResolverBuilder: Scheduler Mr. Tester Unix v0.1 wasn't found. Output: Command DUMMY returned with exit status 1.
+Output: "DUMMY" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:39:05,906 INFO TemplateResolverBuilder: Scheduler Mr. Tester Win v0.1 wasn't found. Output: Command type D:\ckd-sched\ckd-client\sinfo_out_3 returned with exit status 1.
+Output: Не удается найти указанный файл.
+2020-07-09 15:39:05,906 INFO TemplateResolverBuilder: Scheduler SYPPZ wasn't found. Output: Command mfree returned with exit status 1.
+Output: "mfree" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:39:05,906 INFO TemplateResolverBuilder: Scheduler Windows job manager wasn't found. Output: Command node list returned with exit status 1.
+Output: internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Windows\system32\list'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:266:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:596:3)
+2020-07-09 15:39:05,906 INFO Agent: Error during the initialization of TemplateResolver: Unknown scheduler or no scheduler was foundAwaiting first connection to complete the initialization
+2020-07-09 15:39:05,906 INFO TaskServer: Created instance of TaskServer
+2020-07-09 15:39:05,906 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-09 15:39:05,906 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-09 15:39:05,906 INFO Agent: Started Agent.TaskServerProcess
+2020-07-09 15:39:05,906 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-09 15:39:06,172 INFO StatusDaemon: Starting StatusDaemon
+2020-07-09 15:39:06,172 INFO TaskServer: Starting TaskServer
+2020-07-09 15:39:06,172 DEBUG StatusDaemon: _loop called
+2020-07-09 15:39:06,172 DEBUG StatusDaemon: []
+2020-07-09 15:39:06,172 DEBUG TaskServer: _loop called
+2020-07-09 15:40:05,188 DEBUG StatusDaemon: []
+2020-07-09 15:41:04,196 DEBUG StatusDaemon: []
+2020-07-09 15:42:03,204 DEBUG StatusDaemon: []
+2020-07-09 15:42:38,632 INFO LoggingServer started
+2020-07-09 15:42:38,632 INFO Agent: Initializing Agent
+2020-07-09 15:42:38,632 DEBUG Agent: Using DB for scheds data
+2020-07-09 15:42:38,632 INFO TemplateResolverBuilder: Scheduler SLURM wasn't found. Output: Command sinfo --clusters="all" --format="%a %N %C %T %m %O %R %z" returned with exit status 1.
+Output: "sinfo" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:42:38,632 INFO TemplateResolverBuilder: Scheduler TORQUE wasn't found. Output: Command momctl -q ncpus returned with exit status 1.
+Output: "momctl" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:42:38,632 INFO TemplateResolverBuilder: Scheduler Mr. Tester Unix v0.1 wasn't found. Output: Command DUMMY returned with exit status 1.
+Output: "DUMMY" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:42:38,632 INFO TemplateResolverBuilder: Scheduler Mr. Tester Win v0.1 wasn't found. Output: Command type D:\ckd-sched\ckd-client\sinfo_out_3 returned with exit status 1.
+Output: Не удается найти указанный файл.
+2020-07-09 15:42:38,632 INFO TemplateResolverBuilder: Scheduler SYPPZ wasn't found. Output: Command mfree returned with exit status 1.
+Output: "mfree" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:42:38,632 INFO TemplateResolverBuilder: Scheduler Windows job manager wasn't found. Output: Command node list returned with exit status 1.
+Output: internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Windows\system32\list'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:266:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:596:3)
+2020-07-09 15:42:38,632 INFO Agent: Error during the initialization of TemplateResolver: Unknown scheduler or no scheduler was foundAwaiting first connection to complete the initialization
+2020-07-09 15:42:38,632 INFO TaskServer: Created instance of TaskServer
+2020-07-09 15:42:38,632 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-09 15:42:38,632 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-09 15:42:38,632 INFO Agent: Started Agent.TaskServerProcess
+2020-07-09 15:42:38,632 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-09 15:42:45,757 INFO StatusDaemon: Starting StatusDaemon
+2020-07-09 15:42:45,757 INFO TaskServer: Starting TaskServer
+2020-07-09 15:42:45,757 DEBUG StatusDaemon: _loop called
+2020-07-09 15:42:45,757 DEBUG StatusDaemon: []
+2020-07-09 15:42:45,757 DEBUG TaskServer: _loop called
+2020-07-09 15:43:44,770 DEBUG StatusDaemon: []
+2020-07-09 15:44:43,775 DEBUG StatusDaemon: []
+2020-07-09 15:45:42,778 DEBUG StatusDaemon: []
+2020-07-09 15:46:41,782 DEBUG StatusDaemon: []
+2020-07-09 15:47:40,785 DEBUG StatusDaemon: []
+2020-07-09 15:48:39,789 DEBUG StatusDaemon: []
+2020-07-09 15:49:09,995 INFO LoggingServer started
+2020-07-09 15:49:09,995 INFO Agent: Initializing Agent
+2020-07-09 15:49:09,995 DEBUG Agent: Using DB for scheds data
+2020-07-09 15:49:09,995 INFO TemplateResolverBuilder: Scheduler SLURM wasn't found. Output: Command sinfo --clusters="all" --format="%a %N %C %T %m %O %R %z" returned with exit status 1.
+Output: "sinfo" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:49:09,995 INFO TemplateResolverBuilder: Scheduler TORQUE wasn't found. Output: Command momctl -q ncpus returned with exit status 1.
+Output: "momctl" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:49:09,995 INFO TemplateResolverBuilder: Scheduler Mr. Tester Unix v0.1 wasn't found. Output: Command DUMMY returned with exit status 1.
+Output: "DUMMY" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:49:09,995 INFO TemplateResolverBuilder: Scheduler Mr. Tester Win v0.1 wasn't found. Output: Command type D:\ckd-sched\ckd-client\sinfo_out_3 returned with exit status 1.
+Output: Не удается найти указанный файл.
+2020-07-09 15:49:09,995 INFO TemplateResolverBuilder: Scheduler SYPPZ wasn't found. Output: Command mfree returned with exit status 1.
+Output: "mfree" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:49:09,995 INFO TemplateResolverBuilder: Scheduler Windows job manager wasn't found. Output: Command node list returned with exit status 1.
+Output: internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Windows\system32\list'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:266:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:596:3)
+2020-07-09 15:49:09,995 INFO Agent: Error during the initialization of TemplateResolver: Unknown scheduler or no scheduler was foundAwaiting first connection to complete the initialization
+2020-07-09 15:49:09,995 INFO TaskServer: Created instance of TaskServer
+2020-07-09 15:49:10,010 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-09 15:49:10,010 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-09 15:49:10,010 INFO Agent: Started Agent.TaskServerProcess
+2020-07-09 15:49:10,010 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-09 15:49:10,151 INFO TaskServer: Starting TaskServer
+2020-07-09 15:49:10,151 DEBUG TaskServer: _loop called
+2020-07-09 15:49:10,698 INFO StatusDaemon: Starting StatusDaemon
+2020-07-09 15:49:10,698 DEBUG StatusDaemon: _loop called
+2020-07-09 15:49:10,698 DEBUG StatusDaemon: []
+2020-07-09 15:50:09,707 DEBUG StatusDaemon: []
+2020-07-09 15:51:08,712 DEBUG StatusDaemon: []
+2020-07-09 15:52:07,716 DEBUG StatusDaemon: []
+2020-07-09 15:53:06,721 DEBUG StatusDaemon: []
+2020-07-09 15:54:05,725 DEBUG StatusDaemon: []
+2020-07-09 15:55:04,743 DEBUG StatusDaemon: []
+2020-07-09 15:55:09,369 INFO LoggingServer started
+2020-07-09 15:55:09,369 INFO Agent: Initializing Agent
+2020-07-09 15:55:09,369 DEBUG Agent: Using DB for scheds data
+2020-07-09 15:55:09,369 INFO TemplateResolverBuilder: Scheduler SLURM wasn't found. Output: Command sinfo --clusters="all" --format="%a %N %C %T %m %O %R %z" returned with exit status 1.
+Output: "sinfo" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:55:09,369 INFO TemplateResolverBuilder: Scheduler TORQUE wasn't found. Output: Command momctl -q ncpus returned with exit status 1.
+Output: "momctl" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:55:09,369 INFO TemplateResolverBuilder: Scheduler Mr. Tester Unix v0.1 wasn't found. Output: Command DUMMY returned with exit status 1.
+Output: "DUMMY" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:55:09,369 INFO TemplateResolverBuilder: Scheduler Mr. Tester Win v0.1 wasn't found. Output: Command type D:\ckd-sched\ckd-client\sinfo_out_3 returned with exit status 1.
+Output: Не удается найти указанный файл.
+2020-07-09 15:55:09,369 INFO TemplateResolverBuilder: Scheduler SYPPZ wasn't found. Output: Command mfree returned with exit status 1.
+Output: "mfree" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 15:55:09,369 INFO TemplateResolverBuilder: Scheduler Windows job manager wasn't found. Output: Command node list returned with exit status 1.
+Output: internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Windows\system32\list'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:266:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:596:3)
+2020-07-09 15:55:09,369 INFO Agent: Error during the initialization of TemplateResolver: Unknown scheduler or no scheduler was foundAwaiting first connection to complete the initialization
+2020-07-09 15:55:09,369 INFO TaskServer: Created instance of TaskServer
+2020-07-09 15:55:09,369 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-09 15:55:09,369 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-09 15:55:09,369 INFO Agent: Started Agent.TaskServerProcess
+2020-07-09 15:55:09,369 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-09 15:55:09,526 INFO TaskServer: Starting TaskServer
+2020-07-09 15:55:09,541 DEBUG TaskServer: _loop called
+2020-07-09 15:55:10,088 INFO StatusDaemon: Starting StatusDaemon
+2020-07-09 15:55:10,088 DEBUG StatusDaemon: _loop called
+2020-07-09 15:55:10,088 DEBUG StatusDaemon: []
+2020-07-09 15:56:09,106 DEBUG StatusDaemon: []
+2020-07-09 15:57:08,115 DEBUG StatusDaemon: []
+2020-07-09 15:58:07,118 DEBUG StatusDaemon: []
+2020-07-09 15:59:06,122 DEBUG StatusDaemon: []
+2020-07-09 16:00:05,126 DEBUG StatusDaemon: []
+2020-07-09 16:01:04,129 DEBUG StatusDaemon: []
+2020-07-09 16:02:03,133 DEBUG StatusDaemon: []
+2020-07-09 16:03:02,137 DEBUG StatusDaemon: []
+2020-07-09 16:04:01,140 DEBUG StatusDaemon: []
+2020-07-09 16:05:00,144 DEBUG StatusDaemon: []
+2020-07-09 16:05:59,147 DEBUG StatusDaemon: []
+2020-07-09 16:06:58,160 DEBUG StatusDaemon: []
+2020-07-09 16:07:57,164 DEBUG StatusDaemon: []
+2020-07-09 16:08:56,167 DEBUG StatusDaemon: []
+2020-07-09 16:09:55,172 DEBUG StatusDaemon: []
+2020-07-09 16:10:54,176 DEBUG StatusDaemon: []
+2020-07-09 16:11:53,180 DEBUG StatusDaemon: []
+2020-07-09 16:12:52,184 DEBUG StatusDaemon: []
+2020-07-09 16:13:51,187 DEBUG StatusDaemon: []
+2020-07-09 16:14:50,191 DEBUG StatusDaemon: []
+2020-07-09 16:15:49,195 DEBUG StatusDaemon: []
+2020-07-09 16:16:48,199 DEBUG StatusDaemon: []
+2020-07-09 16:17:47,203 DEBUG StatusDaemon: []
+2020-07-09 16:18:46,207 DEBUG StatusDaemon: []
+2020-07-09 16:19:45,211 DEBUG StatusDaemon: []
+2020-07-09 16:20:44,214 DEBUG StatusDaemon: []
+2020-07-09 16:21:43,218 DEBUG StatusDaemon: []
+2020-07-09 16:22:42,221 DEBUG StatusDaemon: []
+2020-07-09 16:23:41,225 DEBUG StatusDaemon: []
+2020-07-09 16:24:40,229 DEBUG StatusDaemon: []
+2020-07-09 16:25:39,233 DEBUG StatusDaemon: []
+2020-07-09 16:26:38,236 DEBUG StatusDaemon: []
+2020-07-09 16:27:37,240 DEBUG StatusDaemon: []
+2020-07-09 16:28:36,243 DEBUG StatusDaemon: []
+2020-07-09 16:29:35,246 DEBUG StatusDaemon: []
+2020-07-09 16:30:34,250 DEBUG StatusDaemon: []
+2020-07-09 16:31:33,253 DEBUG StatusDaemon: []
+2020-07-09 16:32:32,257 DEBUG StatusDaemon: []
+2020-07-09 16:33:31,260 DEBUG StatusDaemon: []
+2020-07-09 16:34:30,264 DEBUG StatusDaemon: []
+2020-07-09 16:35:29,267 DEBUG StatusDaemon: []
+2020-07-09 16:36:28,271 DEBUG StatusDaemon: []
+2020-07-09 16:37:27,274 DEBUG StatusDaemon: []
+2020-07-09 16:38:26,278 DEBUG StatusDaemon: []
+2020-07-09 16:39:25,283 DEBUG StatusDaemon: []
+2020-07-09 16:40:24,290 DEBUG StatusDaemon: []
+2020-07-09 16:41:23,295 DEBUG StatusDaemon: []
+2020-07-09 16:42:22,299 DEBUG StatusDaemon: []
+2020-07-09 16:43:21,304 DEBUG StatusDaemon: []
+2020-07-09 16:44:20,309 DEBUG StatusDaemon: []
+2020-07-09 16:45:19,314 DEBUG StatusDaemon: []
+2020-07-09 16:46:18,318 DEBUG StatusDaemon: []
+2020-07-09 16:47:17,322 DEBUG StatusDaemon: []
+2020-07-09 16:48:16,327 DEBUG StatusDaemon: []
+2020-07-09 16:49:15,334 DEBUG StatusDaemon: []
+2020-07-09 16:50:14,336 DEBUG StatusDaemon: []
+2020-07-09 16:51:13,340 DEBUG StatusDaemon: []
+2020-07-09 16:52:12,344 DEBUG StatusDaemon: []
+2020-07-09 16:53:11,348 DEBUG StatusDaemon: []
+2020-07-09 16:54:10,352 DEBUG StatusDaemon: []
+2020-07-09 16:55:09,356 DEBUG StatusDaemon: []
+2020-07-09 16:56:08,360 DEBUG StatusDaemon: []
+2020-07-09 16:57:07,363 DEBUG StatusDaemon: []
+2020-07-09 16:58:06,367 DEBUG StatusDaemon: []
+2020-07-09 16:59:05,370 DEBUG StatusDaemon: []
+2020-07-09 17:00:04,374 DEBUG StatusDaemon: []
+2020-07-09 17:01:03,378 DEBUG StatusDaemon: []
+2020-07-09 17:02:02,381 DEBUG StatusDaemon: []
+2020-07-09 17:03:01,385 DEBUG StatusDaemon: []
+2020-07-09 17:04:00,388 DEBUG StatusDaemon: []
+2020-07-09 17:04:59,392 DEBUG StatusDaemon: []
+2020-07-09 17:05:58,395 DEBUG StatusDaemon: []
+2020-07-09 17:06:57,399 DEBUG StatusDaemon: []
+2020-07-09 17:07:56,402 DEBUG StatusDaemon: []
+2020-07-09 17:08:55,406 DEBUG StatusDaemon: []
+2020-07-09 17:09:54,409 DEBUG StatusDaemon: []
+2020-07-09 17:10:53,413 DEBUG StatusDaemon: []
+2020-07-09 17:11:52,416 DEBUG StatusDaemon: []
+2020-07-09 17:12:51,420 DEBUG StatusDaemon: []
+2020-07-09 17:13:50,423 DEBUG StatusDaemon: []
+2020-07-09 17:14:49,427 DEBUG StatusDaemon: []
+2020-07-09 17:15:48,430 DEBUG StatusDaemon: []
+2020-07-09 17:16:47,434 DEBUG StatusDaemon: []
+2020-07-09 17:17:46,437 DEBUG StatusDaemon: []
+2020-07-09 17:18:45,441 DEBUG StatusDaemon: []
+2020-07-09 17:19:44,447 DEBUG StatusDaemon: []
+2020-07-09 17:20:43,453 DEBUG StatusDaemon: []
+2020-07-09 17:21:42,458 DEBUG StatusDaemon: []
+2020-07-09 17:22:41,462 DEBUG StatusDaemon: []
+2020-07-09 17:23:40,467 DEBUG StatusDaemon: []
+2020-07-09 17:24:39,472 DEBUG StatusDaemon: []
+2020-07-09 17:25:38,477 DEBUG StatusDaemon: []
+2020-07-09 17:26:37,481 DEBUG StatusDaemon: []
+2020-07-09 17:27:36,485 DEBUG StatusDaemon: []
+2020-07-09 17:28:35,489 DEBUG StatusDaemon: []
+2020-07-09 17:29:34,494 DEBUG StatusDaemon: []
+2020-07-09 17:30:33,498 DEBUG StatusDaemon: []
+2020-07-09 17:31:32,502 DEBUG StatusDaemon: []
+2020-07-09 17:32:31,506 DEBUG StatusDaemon: []
+2020-07-09 17:33:30,509 DEBUG StatusDaemon: []
+2020-07-09 17:34:29,513 DEBUG StatusDaemon: []
+2020-07-09 17:35:28,517 DEBUG StatusDaemon: []
+2020-07-09 17:36:27,521 DEBUG StatusDaemon: []
+2020-07-09 17:37:26,525 DEBUG StatusDaemon: []
+2020-07-09 17:38:25,529 DEBUG StatusDaemon: []
+2020-07-09 17:39:24,532 DEBUG StatusDaemon: []
+2020-07-09 17:40:23,536 DEBUG StatusDaemon: []
+2020-07-09 17:41:22,540 DEBUG StatusDaemon: []
+2020-07-09 17:42:21,543 DEBUG StatusDaemon: []
+2020-07-09 17:43:20,547 DEBUG StatusDaemon: []
+2020-07-09 17:44:03,054 INFO LoggingServer started
+2020-07-09 17:44:03,054 INFO Agent: Initializing Agent
+2020-07-09 17:44:03,054 DEBUG Agent: Using DB for scheds data
+2020-07-09 17:44:03,054 INFO TemplateResolverBuilder: Scheduler SLURM wasn't found. Output: Command sinfo --clusters="all" --format="%a %N %C %T %m %O %R %z" returned with exit status 1.
+Output: "sinfo" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 17:44:03,054 INFO TemplateResolverBuilder: Scheduler TORQUE wasn't found. Output: Command momctl -q ncpus returned with exit status 1.
+Output: "momctl" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 17:44:03,054 INFO TemplateResolverBuilder: Scheduler Mr. Tester Unix v0.1 wasn't found. Output: Command DUMMY returned with exit status 1.
+Output: "DUMMY" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 17:44:03,054 INFO TemplateResolverBuilder: Scheduler Mr. Tester Win v0.1 wasn't found. Output: Command type D:\ckd-sched\ckd-client\sinfo_out_3 returned with exit status 1.
+Output: Не удается найти указанный файл.
+2020-07-09 17:44:03,054 INFO TemplateResolverBuilder: Scheduler SYPPZ wasn't found. Output: Command mfree returned with exit status 1.
+Output: "mfree" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-09 17:44:03,054 INFO TemplateResolverBuilder: Scheduler Windows job manager wasn't found. Output: Command node list returned with exit status 1.
+Output: internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Windows\system32\list'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:266:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:596:3)
+2020-07-09 17:44:03,054 INFO Agent: Error during the initialization of TemplateResolver: Unknown scheduler or no scheduler was foundAwaiting first connection to complete the initialization
+2020-07-09 17:44:03,054 INFO TaskServer: Created instance of TaskServer
+2020-07-09 17:44:03,054 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-09 17:44:03,054 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-09 17:44:03,054 INFO Agent: Started Agent.TaskServerProcess
+2020-07-09 17:44:03,054 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-09 17:44:03,226 INFO TaskServer: Starting TaskServer
+2020-07-09 17:44:03,226 DEBUG TaskServer: _loop called
+2020-07-09 17:44:03,898 INFO StatusDaemon: Starting StatusDaemon
+2020-07-09 17:44:03,898 DEBUG StatusDaemon: _loop called
+2020-07-09 17:44:03,898 DEBUG StatusDaemon: []
+2020-07-09 17:45:02,902 DEBUG StatusDaemon: []
+2020-07-09 17:46:01,911 DEBUG StatusDaemon: []
+2020-07-09 17:47:00,915 DEBUG StatusDaemon: []
+2020-07-09 17:47:59,919 DEBUG StatusDaemon: []
+2020-07-09 17:48:58,923 DEBUG StatusDaemon: []
+2020-07-09 17:49:57,927 DEBUG StatusDaemon: []
+2020-07-09 17:50:56,931 DEBUG StatusDaemon: []
+2020-07-09 17:51:55,935 DEBUG StatusDaemon: []
+2020-07-09 17:52:54,939 DEBUG StatusDaemon: []
+2020-07-09 17:53:53,942 DEBUG StatusDaemon: []
+2020-07-09 17:54:52,946 DEBUG StatusDaemon: []
+2020-07-09 17:55:51,950 DEBUG StatusDaemon: []
+2020-07-09 17:56:50,954 DEBUG StatusDaemon: []
+2020-07-09 17:57:49,957 DEBUG StatusDaemon: []
+2020-07-09 17:58:48,961 DEBUG StatusDaemon: []
+2020-07-09 17:59:47,965 DEBUG StatusDaemon: []
+2020-07-09 18:00:46,969 DEBUG StatusDaemon: []
+2020-07-09 18:01:45,972 DEBUG StatusDaemon: []
+2020-07-09 18:02:44,976 DEBUG StatusDaemon: []
+2020-07-09 18:03:43,979 DEBUG StatusDaemon: []
+2020-07-09 18:04:42,983 DEBUG StatusDaemon: []
+2020-07-09 18:05:41,986 DEBUG StatusDaemon: []
+2020-07-09 18:06:40,990 DEBUG StatusDaemon: []
+2020-07-09 18:07:39,993 DEBUG StatusDaemon: []
+2020-07-09 18:08:38,997 DEBUG StatusDaemon: []
+2020-07-09 18:09:38,000 DEBUG StatusDaemon: []
+2020-07-09 18:10:37,003 DEBUG StatusDaemon: []
+2020-07-09 18:11:36,007 DEBUG StatusDaemon: []
+2020-07-09 18:12:35,010 DEBUG StatusDaemon: []
+2020-07-09 18:13:34,015 DEBUG StatusDaemon: []
+2020-07-09 18:14:33,019 DEBUG StatusDaemon: []
+2020-07-09 18:15:32,021 DEBUG StatusDaemon: []
+2020-07-09 18:16:31,024 DEBUG StatusDaemon: []
+2020-07-09 18:17:30,028 DEBUG StatusDaemon: []
+2020-07-09 18:18:29,033 DEBUG StatusDaemon: []
+2020-07-09 18:19:28,038 DEBUG StatusDaemon: []
+2020-07-09 18:20:27,055 DEBUG StatusDaemon: []
+2020-07-09 18:21:26,058 DEBUG StatusDaemon: []
+2020-07-09 18:22:25,061 DEBUG StatusDaemon: []
+2020-07-09 18:23:24,065 DEBUG StatusDaemon: []
+2020-07-09 18:24:23,069 DEBUG StatusDaemon: []
+2020-07-09 18:25:22,072 DEBUG StatusDaemon: []
+2020-07-09 18:26:21,076 DEBUG StatusDaemon: []
+2020-07-09 18:27:20,079 DEBUG StatusDaemon: []
+2020-07-09 18:28:19,083 DEBUG StatusDaemon: []
+2020-07-09 18:29:18,086 DEBUG StatusDaemon: []
+2020-07-09 18:30:17,090 DEBUG StatusDaemon: []
+2020-07-09 18:31:16,093 DEBUG StatusDaemon: []
+2020-07-10 10:41:56,525 INFO LoggingServer started
+2020-07-10 10:41:56,525 INFO Agent: Initializing Agent
+2020-07-10 10:41:56,525 INFO Agent: Error during the initialization of TemplateResolver: Bad URL: <urlopen error [WinError 10060] ╧юя√Єър єёЄрэютшЄ№ ёюхфшэхэшх с√ыр схчєёях°эющ, Є.ъ. юЄ фЁєуюую ъюья№■ЄхЁр чр ЄЁхсєхьюх тЁхь  эх яюыєўхэ эєцэ√щ юЄъышъ, шыш с√ыю ЁрчюЁтрэю єцх єёЄрэютыхээюх ёюхфшэхэшх шч-чр эхтхЁэюую юЄъышър єцх яюфъы■ўхээюую ъюья№■ЄхЁр>Awaiting first connection to complete the initialization
+2020-07-10 10:41:56,525 INFO TaskServer: Created instance of TaskServer
+2020-07-10 10:41:56,525 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-10 10:41:56,525 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.94.44
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			INFO
+	scheduler:				None
+
+2020-07-10 10:41:56,525 INFO Agent: Started Agent.TaskServerProcess
+2020-07-10 10:41:56,525 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-10 10:41:56,681 INFO TaskServer: Starting TaskServer
+2020-07-10 10:41:57,244 INFO StatusDaemon: Starting StatusDaemon
+2020-07-10 15:06:54,901 INFO LoggingServer started
+2020-07-10 15:06:54,901 INFO Agent: Initializing Agent
+2020-07-10 15:06:54,901 INFO Agent: Error during the initialization of TemplateResolver: Bad URL: HTTP Error 404: Not FoundAwaiting first connection to complete the initialization
+2020-07-10 15:06:54,901 INFO TaskServer: Created instance of TaskServer
+2020-07-10 15:06:54,901 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-10 15:06:54,901 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.209
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			INFO
+	scheduler:				None
+
+2020-07-10 15:06:54,901 INFO Agent: Started Agent.TaskServerProcess
+2020-07-10 15:06:54,901 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-10 15:06:55,073 INFO TaskServer: Starting TaskServer
+2020-07-10 15:06:55,620 INFO StatusDaemon: Starting StatusDaemon
+2020-07-14 09:01:11,564 INFO LoggingServer started
+2020-07-14 09:01:11,665 INFO Agent: Initializing Agent
+2020-07-14 09:01:11,665 INFO Agent: Error during the initialization of TemplateResolver: Bad URL: HTTP Error 404: Not FoundAwaiting first connection to complete the initialization
+2020-07-14 09:01:11,665 INFO TaskServer: Created instance of TaskServer
+2020-07-14 09:01:11,666 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-14 09:01:11,666 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.209
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			INFO
+	scheduler:				None
+
+2020-07-14 09:01:11,666 INFO Agent: Started Agent.TaskServerProcess
+2020-07-14 09:01:11,666 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-14 09:01:11,722 INFO TaskServer: Starting TaskServer
+2020-07-14 09:01:12,270 INFO StatusDaemon: Starting StatusDaemon
+2020-07-14 09:02:04,923 INFO LoggingServer started
+2020-07-14 09:02:04,923 INFO Agent: Initializing Agent
+2020-07-14 09:02:04,923 INFO Agent: Error during the initialization of TemplateResolver: Bad URL: HTTP Error 404: Not FoundAwaiting first connection to complete the initialization
+2020-07-14 09:02:04,923 INFO TaskServer: Created instance of TaskServer
+2020-07-14 09:02:04,923 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-14 09:02:04,923 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.209
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			INFO
+	scheduler:				None
+
+2020-07-14 09:02:04,923 INFO Agent: Started Agent.TaskServerProcess
+2020-07-14 09:02:04,923 INFO TaskServer: Starting TaskServer
+2020-07-14 09:02:04,923 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-14 09:02:05,001 INFO StatusDaemon: Starting StatusDaemon
+2020-07-14 09:13:21,274 INFO LoggingServer started
+2020-07-14 11:29:23,646 INFO Agent: Initializing Agent
+2020-07-14 11:29:27,101 DEBUG Agent: Using DB for scheds data
+2020-07-14 11:29:27,710 INFO TemplateResolverBuilder: Scheduler SLURM wasn't found. Output: Command sinfo --clusters="all" --format="%a %N %C %T %m %O %R %z" returned with exit status 1.
+Output: "sinfo" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 11:29:28,226 INFO TemplateResolverBuilder: Scheduler TORQUE wasn't found. Output: Command momctl -q ncpus returned with exit status 1.
+Output: "momctl" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 11:29:43,229 INFO TemplateResolverBuilder: Scheduler Mr. Tester Unix v0.1 wasn't found. Output: Command DUMMY returned with exit status 1.
+Output: "DUMMY" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 11:29:44,011 INFO TemplateResolverBuilder: Scheduler Mr. Tester Win v0.1 wasn't found. Output: Command type D:\ckd-sched\ckd-client\sinfo_out_3 returned with exit status 1.
+Output: Не удается найти указанный файл.
+2020-07-14 11:29:59,496 INFO TemplateResolverBuilder: Scheduler SYPPZ wasn't found. Output: Command mfree returned with exit status 1.
+Output: "mfree" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 11:30:07,465 INFO TemplateResolverBuilder: Scheduler Windows job manager wasn't found. Output: Command node list returned with exit status 1.
+Output: internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Windows\system32\list'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:266:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:596:3)
+2020-07-14 11:30:18,013 INFO Agent: Error during the initialization of TemplateResolver: Unknown scheduler or no scheduler was foundAwaiting first connection to complete the initialization
+2020-07-14 11:32:06,725 INFO TaskServer: Created instance of TaskServer
+2020-07-14 11:32:07,897 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-14 11:32:12,241 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-14 11:32:12,241 INFO Agent: Started Agent.TaskServerProcess
+2020-07-14 11:32:12,241 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-14 11:32:12,241 INFO TaskServer: Starting TaskServer
+2020-07-14 11:32:12,241 DEBUG TaskServer: _loop called
+2020-07-14 11:32:12,241 INFO StatusDaemon: Starting StatusDaemon
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: _loop called
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,241 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,257 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,273 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,273 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,273 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,273 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,273 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,273 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,273 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,273 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,273 DEBUG StatusDaemon: []
+2020-07-14 11:32:12,273 DEBUG StatusDaemon: []
+2020-07-14 11:33:00,608 DEBUG StatusDaemon: []
+2020-07-14 11:33:59,616 DEBUG StatusDaemon: []
+2020-07-14 11:34:58,625 DEBUG StatusDaemon: []
+2020-07-14 11:35:57,654 DEBUG StatusDaemon: []
+2020-07-14 11:36:56,642 DEBUG StatusDaemon: []
+2020-07-14 11:37:55,644 DEBUG StatusDaemon: []
+2020-07-14 11:38:54,648 DEBUG StatusDaemon: []
+2020-07-14 11:39:53,663 DEBUG StatusDaemon: []
+2020-07-14 11:40:52,667 DEBUG StatusDaemon: []
+2020-07-14 11:41:51,671 DEBUG StatusDaemon: []
+2020-07-14 11:42:50,675 DEBUG StatusDaemon: []
+2020-07-14 11:43:49,679 DEBUG StatusDaemon: []
+2020-07-14 11:44:48,685 DEBUG StatusDaemon: []
+2020-07-14 11:45:47,690 DEBUG StatusDaemon: []
+2020-07-14 11:46:46,697 DEBUG StatusDaemon: []
+2020-07-14 11:47:45,701 DEBUG StatusDaemon: []
+2020-07-14 11:48:44,705 DEBUG StatusDaemon: []
+2020-07-14 11:49:43,710 DEBUG StatusDaemon: []
+2020-07-14 11:50:42,714 DEBUG StatusDaemon: []
+2020-07-14 11:51:41,720 DEBUG StatusDaemon: []
+2020-07-14 11:52:40,724 DEBUG StatusDaemon: []
+2020-07-14 11:53:39,730 DEBUG StatusDaemon: []
+2020-07-14 11:54:38,734 DEBUG StatusDaemon: []
+2020-07-14 11:55:37,738 DEBUG StatusDaemon: []
+2020-07-14 11:56:36,741 DEBUG StatusDaemon: []
+2020-07-14 11:57:35,745 DEBUG StatusDaemon: []
+2020-07-14 11:58:34,749 DEBUG StatusDaemon: []
+2020-07-14 11:59:33,753 DEBUG StatusDaemon: []
+2020-07-14 12:00:32,756 DEBUG StatusDaemon: []
+2020-07-14 12:01:31,760 DEBUG StatusDaemon: []
+2020-07-14 12:02:30,764 DEBUG StatusDaemon: []
+2020-07-14 12:03:29,767 DEBUG StatusDaemon: []
+2020-07-14 12:04:28,771 DEBUG StatusDaemon: []
+2020-07-14 12:05:27,774 DEBUG StatusDaemon: []
+2020-07-14 12:06:26,778 DEBUG StatusDaemon: []
+2020-07-14 12:07:25,782 DEBUG StatusDaemon: []
+2020-07-14 12:08:24,785 DEBUG StatusDaemon: []
+2020-07-14 12:09:23,789 DEBUG StatusDaemon: []
+2020-07-14 12:10:22,794 DEBUG StatusDaemon: []
+2020-07-14 12:11:21,797 DEBUG StatusDaemon: []
+2020-07-14 12:12:20,802 DEBUG StatusDaemon: []
+2020-07-14 12:13:19,818 DEBUG StatusDaemon: []
+2020-07-14 12:14:18,831 DEBUG StatusDaemon: []
+2020-07-14 12:15:17,836 DEBUG StatusDaemon: []
+2020-07-14 12:16:16,841 DEBUG StatusDaemon: []
+2020-07-14 12:17:15,857 DEBUG StatusDaemon: []
+2020-07-14 12:18:14,861 DEBUG StatusDaemon: []
+2020-07-14 12:19:13,865 DEBUG StatusDaemon: []
+2020-07-14 12:20:12,869 DEBUG StatusDaemon: []
+2020-07-14 12:21:11,873 DEBUG StatusDaemon: []
+2020-07-14 12:22:10,878 DEBUG StatusDaemon: []
+2020-07-14 12:22:25,149 DEBUG RequestHandler: Async Handling connection
+2020-07-14 12:22:27,149 ERROR StreamsHandler: Request response: {
+    "message": "Handler Error:",
+    "error": "",
+    "task_info": {
+        "status": "ERROR"
+    }
+}
+2020-07-14 12:22:27,149 DEBUG StreamsHandler: Response sent.
+2020-07-14 12:23:09,882 DEBUG StatusDaemon: []
+2020-07-14 12:24:05,869 DEBUG RequestHandler: Async Handling connection
+2020-07-14 12:24:08,884 DEBUG StatusDaemon: []
+2020-07-14 12:24:18,862 DEBUG RequestHandler: Async Handling connection
+2020-07-14 12:24:19,694 ERROR StreamsHandler: Request response: {
+    "message": "Handler Error:",
+    "error": "",
+    "task_info": {
+        "status": "ERROR"
+    }
+}
+2020-07-14 12:24:19,694 DEBUG StreamsHandler: Response sent.
+2020-07-14 12:24:21,710 ERROR StreamsHandler: Request response: {
+    "message": "Handler Error:",
+    "error": "",
+    "task_info": {
+        "status": "ERROR"
+    }
+}
+2020-07-14 12:24:21,710 DEBUG StreamsHandler: Response sent.
+2020-07-14 12:24:55,853 DEBUG RequestHandler: Async Handling connection
+2020-07-14 12:24:55,853 DEBUG RequestHandler: Async Handling connection
+2020-07-14 12:24:57,853 ERROR StreamsHandler: Request response: {
+    "message": "Handler Error:",
+    "error": "",
+    "task_info": {
+        "status": "ERROR"
+    }
+}
+2020-07-14 12:24:57,853 DEBUG StreamsHandler: Response sent.
+2020-07-14 12:24:57,853 ERROR StreamsHandler: Request response: {
+    "message": "Handler Error:",
+    "error": "",
+    "task_info": {
+        "status": "ERROR"
+    }
+}
+2020-07-14 12:24:57,853 DEBUG StreamsHandler: Response sent.
+2020-07-14 12:24:59,197 DEBUG RequestHandler: Async Handling connection
+2020-07-14 12:24:59,619 DEBUG RequestHandler: Async Handling connection
+2020-07-14 12:25:01,197 ERROR StreamsHandler: Request response: {
+    "message": "Handler Error:",
+    "error": "",
+    "task_info": {
+        "status": "ERROR"
+    }
+}
+2020-07-14 12:25:01,197 DEBUG StreamsHandler: Response sent.
+2020-07-14 12:25:01,634 ERROR StreamsHandler: Request response: {
+    "message": "Handler Error:",
+    "error": "",
+    "task_info": {
+        "status": "ERROR"
+    }
+}
+2020-07-14 12:25:01,634 DEBUG StreamsHandler: Response sent.
+2020-07-14 12:25:04,954 INFO LoggingServer started
+2020-07-14 12:25:04,954 INFO Agent: Initializing Agent
+2020-07-14 12:25:04,954 DEBUG Agent: Using DB for scheds data
+2020-07-14 12:25:04,954 INFO TemplateResolverBuilder: Scheduler SLURM wasn't found. Output: Command sinfo --clusters="all" --format="%a %N %C %T %m %O %R %z" returned with exit status 1.
+Output: "sinfo" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:25:04,954 INFO TemplateResolverBuilder: Scheduler TORQUE wasn't found. Output: Command momctl -q ncpus returned with exit status 1.
+Output: "momctl" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:25:04,954 INFO TemplateResolverBuilder: Scheduler Mr. Tester Unix v0.1 wasn't found. Output: Command DUMMY returned with exit status 1.
+Output: "DUMMY" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:25:04,954 INFO TemplateResolverBuilder: Scheduler Mr. Tester Win v0.1 wasn't found. Output: Command type D:\ckd-sched\ckd-client\sinfo_out_3 returned with exit status 1.
+Output: Не удается найти указанный файл.
+2020-07-14 12:25:04,954 INFO TemplateResolverBuilder: Scheduler SYPPZ wasn't found. Output: Command mfree returned with exit status 1.
+Output: "mfree" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:25:04,954 INFO TemplateResolverBuilder: Scheduler Windows job manager wasn't found. Output: Command node list returned with exit status 1.
+Output: internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Windows\system32\list'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:266:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:596:3)
+2020-07-14 12:25:04,954 INFO Agent: Error during the initialization of TemplateResolver: Unknown scheduler or no scheduler was foundAwaiting first connection to complete the initialization
+2020-07-14 12:25:04,954 INFO TaskServer: Created instance of TaskServer
+2020-07-14 12:25:04,954 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-14 12:25:04,954 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-14 12:25:04,954 INFO Agent: Started Agent.TaskServerProcess
+2020-07-14 12:25:04,954 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-14 12:25:05,110 INFO TaskServer: Starting TaskServer
+2020-07-14 12:25:05,110 DEBUG TaskServer: _loop called
+2020-07-14 12:25:05,626 INFO StatusDaemon: Starting StatusDaemon
+2020-07-14 12:25:05,626 DEBUG StatusDaemon: _loop called
+2020-07-14 12:25:05,641 DEBUG StatusDaemon: []
+2020-07-14 12:26:04,646 DEBUG StatusDaemon: []
+2020-07-14 12:26:20,663 DEBUG RequestHandler: Async Handling connection
+2020-07-14 12:26:22,663 ERROR StreamsHandler: Request response: {
+    "task_info": {
+        "status": "ERROR"
+    },
+    "error": "",
+    "message": "Handler Error:"
+}
+2020-07-14 12:26:22,663 DEBUG StreamsHandler: Response sent.
+2020-07-14 12:26:26,956 INFO LoggingServer started
+2020-07-14 12:26:26,956 INFO Agent: Initializing Agent
+2020-07-14 12:26:26,956 DEBUG Agent: Using DB for scheds data
+2020-07-14 12:26:26,956 INFO TemplateResolverBuilder: Scheduler SLURM wasn't found. Output: Command sinfo --clusters="all" --format="%a %N %C %T %m %O %R %z" returned with exit status 1.
+Output: "sinfo" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:26:26,956 INFO TemplateResolverBuilder: Scheduler TORQUE wasn't found. Output: Command momctl -q ncpus returned with exit status 1.
+Output: "momctl" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:26:26,956 INFO TemplateResolverBuilder: Scheduler Mr. Tester Unix v0.1 wasn't found. Output: Command DUMMY returned with exit status 1.
+Output: "DUMMY" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:26:26,956 INFO TemplateResolverBuilder: Scheduler Mr. Tester Win v0.1 wasn't found. Output: Command type D:\ckd-sched\ckd-client\sinfo_out_3 returned with exit status 1.
+Output: Не удается найти указанный файл.
+2020-07-14 12:26:26,956 INFO TemplateResolverBuilder: Scheduler SYPPZ wasn't found. Output: Command mfree returned with exit status 1.
+Output: "mfree" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:26:26,956 INFO TemplateResolverBuilder: Scheduler Windows job manager wasn't found. Output: Command node list returned with exit status 1.
+Output: internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Windows\system32\list'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:266:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:596:3)
+2020-07-14 12:26:26,956 INFO Agent: Error during the initialization of TemplateResolver: Unknown scheduler or no scheduler was foundAwaiting first connection to complete the initialization
+2020-07-14 12:26:26,956 INFO TaskServer: Created instance of TaskServer
+2020-07-14 12:26:26,956 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-14 12:26:26,956 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-14 12:26:26,956 INFO Agent: Started Agent.TaskServerProcess
+2020-07-14 12:26:26,956 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-14 12:26:27,112 INFO TaskServer: Starting TaskServer
+2020-07-14 12:26:27,112 DEBUG TaskServer: _loop called
+2020-07-14 12:26:27,628 INFO StatusDaemon: Starting StatusDaemon
+2020-07-14 12:26:27,628 DEBUG StatusDaemon: _loop called
+2020-07-14 12:26:27,628 DEBUG StatusDaemon: []
+2020-07-14 12:26:35,066 DEBUG RequestHandler: Async Handling connection
+2020-07-14 12:26:37,066 ERROR StreamsHandler: Request response: {
+    "task_info": {
+        "status": "ERROR"
+    },
+    "error": "",
+    "message": "Handler Error:"
+}
+2020-07-14 12:26:37,066 DEBUG StreamsHandler: Response sent.
+2020-07-14 12:27:06,723 INFO LoggingServer started
+2020-07-14 12:27:06,723 INFO Agent: Initializing Agent
+2020-07-14 12:27:06,723 DEBUG Agent: Using DB for scheds data
+2020-07-14 12:27:06,723 INFO TemplateResolverBuilder: Scheduler SLURM wasn't found. Output: Command sinfo --clusters="all" --format="%a %N %C %T %m %O %R %z" returned with exit status 1.
+Output: "sinfo" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:27:06,723 INFO TemplateResolverBuilder: Scheduler TORQUE wasn't found. Output: Command momctl -q ncpus returned with exit status 1.
+Output: "momctl" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:27:06,723 INFO TemplateResolverBuilder: Scheduler Mr. Tester Unix v0.1 wasn't found. Output: Command DUMMY returned with exit status 1.
+Output: "DUMMY" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:27:06,723 INFO TemplateResolverBuilder: Scheduler Mr. Tester Win v0.1 wasn't found. Output: Command type D:\ckd-sched\ckd-client\sinfo_out_3 returned with exit status 1.
+Output: Не удается найти указанный файл.
+2020-07-14 12:27:06,723 INFO TemplateResolverBuilder: Scheduler SYPPZ wasn't found. Output: Command mfree returned with exit status 1.
+Output: "mfree" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:27:06,723 INFO TemplateResolverBuilder: Scheduler Windows job manager wasn't found. Output: Command node list returned with exit status 1.
+Output: internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Windows\system32\list'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:266:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:596:3)
+2020-07-14 12:27:06,723 INFO Agent: Error during the initialization of TemplateResolver: Unknown scheduler or no scheduler was foundAwaiting first connection to complete the initialization
+2020-07-14 12:27:06,723 INFO TaskServer: Created instance of TaskServer
+2020-07-14 12:27:06,723 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-14 12:27:06,723 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-14 12:27:06,723 INFO Agent: Started Agent.TaskServerProcess
+2020-07-14 12:27:06,723 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-14 12:27:06,864 INFO TaskServer: Starting TaskServer
+2020-07-14 12:27:06,864 DEBUG TaskServer: _loop called
+2020-07-14 12:27:07,395 INFO StatusDaemon: Starting StatusDaemon
+2020-07-14 12:27:07,395 DEBUG StatusDaemon: _loop called
+2020-07-14 12:27:07,395 DEBUG StatusDaemon: []
+2020-07-14 12:27:13,146 DEBUG RequestHandler: Async Handling connection
+2020-07-14 12:27:15,161 ERROR StreamsHandler: Request response: {
+    "error": "",
+    "task_info": {
+        "status": "ERROR"
+    },
+    "message": "Handler Error:"
+}
+2020-07-14 12:27:15,161 DEBUG StreamsHandler: Response sent.
+2020-07-14 12:27:42,319 DEBUG RequestHandler: Async Handling connection
+2020-07-14 12:27:44,038 DEBUG RequestHandler: Async Handling connection
+2020-07-14 12:27:45,335 ERROR StreamsHandler: Request response: {
+    "error": "",
+    "task_info": {
+        "status": "ERROR"
+    },
+    "message": "Handler Error:"
+}
+2020-07-14 12:27:45,335 DEBUG StreamsHandler: Response sent.
+2020-07-14 12:27:46,866 ERROR StreamsHandler: Request response: {
+    "error": "",
+    "task_info": {
+        "status": "ERROR"
+    },
+    "message": "Handler Error:"
+}
+2020-07-14 12:27:46,866 DEBUG StreamsHandler: Response sent.
+2020-07-14 12:28:06,408 DEBUG StatusDaemon: []
+2020-07-14 12:28:31,349 INFO LoggingServer started
+2020-07-14 12:28:31,349 INFO Agent: Initializing Agent
+2020-07-14 12:28:31,349 DEBUG Agent: Using DB for scheds data
+2020-07-14 12:28:31,349 INFO TemplateResolverBuilder: Scheduler SLURM wasn't found. Output: Command sinfo --clusters="all" --format="%a %N %C %T %m %O %R %z" returned with exit status 1.
+Output: "sinfo" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:28:31,349 INFO TemplateResolverBuilder: Scheduler TORQUE wasn't found. Output: Command momctl -q ncpus returned with exit status 1.
+Output: "momctl" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:28:31,349 INFO TemplateResolverBuilder: Scheduler Mr. Tester Unix v0.1 wasn't found. Output: Command DUMMY returned with exit status 1.
+Output: "DUMMY" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:28:31,349 INFO TemplateResolverBuilder: Scheduler Mr. Tester Win v0.1 wasn't found. Output: Command type D:\ckd-sched\ckd-client\sinfo_out_3 returned with exit status 1.
+Output: Не удается найти указанный файл.
+2020-07-14 12:28:31,349 INFO TemplateResolverBuilder: Scheduler SYPPZ wasn't found. Output: Command mfree returned with exit status 1.
+Output: "mfree" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 12:28:31,349 INFO TemplateResolverBuilder: Scheduler Windows job manager wasn't found. Output: Command node list returned with exit status 1.
+Output: internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Windows\system32\list'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:266:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:596:3)
+2020-07-14 12:28:31,349 INFO Agent: Error during the initialization of TemplateResolver: Unknown scheduler or no scheduler was foundAwaiting first connection to complete the initialization
+2020-07-14 12:28:31,349 INFO TaskServer: Created instance of TaskServer
+2020-07-14 12:28:31,349 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-14 12:28:31,349 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-14 12:28:31,349 INFO Agent: Started Agent.TaskServerProcess
+2020-07-14 12:28:31,349 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-14 12:28:31,490 INFO TaskServer: Starting TaskServer
+2020-07-14 12:28:31,490 DEBUG TaskServer: _loop called
+2020-07-14 12:28:32,036 INFO StatusDaemon: Starting StatusDaemon
+2020-07-14 12:28:32,036 DEBUG StatusDaemon: _loop called
+2020-07-14 12:28:32,036 DEBUG StatusDaemon: []
+2020-07-14 12:29:31,041 DEBUG StatusDaemon: []
+2020-07-14 12:30:30,045 DEBUG StatusDaemon: []
+2020-07-14 12:31:29,049 DEBUG StatusDaemon: []
+2020-07-14 12:32:28,054 DEBUG StatusDaemon: []
+2020-07-14 12:33:27,057 DEBUG StatusDaemon: []
+2020-07-14 12:34:26,061 DEBUG StatusDaemon: []
+2020-07-14 12:35:25,066 DEBUG StatusDaemon: []
+2020-07-14 12:36:24,070 DEBUG StatusDaemon: []
+2020-07-14 12:37:23,074 DEBUG StatusDaemon: []
+2020-07-14 12:38:22,078 DEBUG StatusDaemon: []
+2020-07-14 12:39:21,081 DEBUG StatusDaemon: []
+2020-07-14 12:40:20,085 DEBUG StatusDaemon: []
+2020-07-14 12:41:19,089 DEBUG StatusDaemon: []
+2020-07-14 12:42:18,093 DEBUG StatusDaemon: []
+2020-07-14 12:43:17,097 DEBUG StatusDaemon: []
+2020-07-14 12:44:16,101 DEBUG StatusDaemon: []
+2020-07-14 12:45:15,104 DEBUG StatusDaemon: []
+2020-07-14 12:46:14,108 DEBUG StatusDaemon: []
+2020-07-14 12:47:13,112 DEBUG StatusDaemon: []
+2020-07-14 12:48:12,116 DEBUG StatusDaemon: []
+2020-07-14 12:49:11,119 DEBUG StatusDaemon: []
+2020-07-14 12:50:10,123 DEBUG StatusDaemon: []
+2020-07-14 12:51:09,126 DEBUG StatusDaemon: []
+2020-07-14 12:52:08,130 DEBUG StatusDaemon: []
+2020-07-14 12:53:07,133 DEBUG StatusDaemon: []
+2020-07-14 12:54:06,137 DEBUG StatusDaemon: []
+2020-07-14 12:55:05,141 DEBUG StatusDaemon: []
+2020-07-14 12:56:04,144 DEBUG StatusDaemon: []
+2020-07-14 12:57:03,160 DEBUG StatusDaemon: []
+2020-07-14 12:58:02,164 DEBUG StatusDaemon: []
+2020-07-14 12:59:01,168 DEBUG StatusDaemon: []
+2020-07-14 13:00:00,172 DEBUG StatusDaemon: []
+2020-07-14 13:00:59,176 DEBUG StatusDaemon: []
+2020-07-14 13:01:58,179 DEBUG StatusDaemon: []
+2020-07-14 13:02:57,183 DEBUG StatusDaemon: []
+2020-07-14 13:03:56,187 DEBUG StatusDaemon: []
+2020-07-14 13:04:55,191 DEBUG StatusDaemon: []
+2020-07-14 13:05:54,194 DEBUG StatusDaemon: []
+2020-07-14 13:06:53,198 DEBUG StatusDaemon: []
+2020-07-14 13:07:52,202 DEBUG StatusDaemon: []
+2020-07-14 13:08:51,206 DEBUG StatusDaemon: []
+2020-07-14 13:09:50,209 DEBUG StatusDaemon: []
+2020-07-14 13:10:49,213 DEBUG StatusDaemon: []
+2020-07-14 13:11:48,216 DEBUG StatusDaemon: []
+2020-07-14 13:12:47,220 DEBUG StatusDaemon: []
+2020-07-14 13:13:46,223 DEBUG StatusDaemon: []
+2020-07-14 13:14:45,227 DEBUG StatusDaemon: []
+2020-07-14 13:15:44,230 DEBUG StatusDaemon: []
+2020-07-14 13:16:43,234 DEBUG StatusDaemon: []
+2020-07-14 13:17:42,237 DEBUG StatusDaemon: []
+2020-07-14 13:18:41,241 DEBUG StatusDaemon: []
+2020-07-14 13:19:40,244 DEBUG StatusDaemon: []
+2020-07-14 13:20:39,248 DEBUG StatusDaemon: []
+2020-07-14 13:21:38,251 DEBUG StatusDaemon: []
+2020-07-14 13:22:37,255 DEBUG StatusDaemon: []
+2020-07-14 13:23:36,258 DEBUG StatusDaemon: []
+2020-07-14 13:24:35,262 DEBUG StatusDaemon: []
+2020-07-14 13:25:34,265 DEBUG StatusDaemon: []
+2020-07-14 13:26:33,269 DEBUG StatusDaemon: []
+2020-07-14 13:27:32,273 DEBUG StatusDaemon: []
+2020-07-14 13:28:31,276 DEBUG StatusDaemon: []
+2020-07-14 13:29:30,280 DEBUG StatusDaemon: []
+2020-07-14 13:30:29,283 DEBUG StatusDaemon: []
+2020-07-14 13:31:28,287 DEBUG StatusDaemon: []
+2020-07-14 13:32:27,290 DEBUG StatusDaemon: []
+2020-07-14 13:33:26,294 DEBUG StatusDaemon: []
+2020-07-14 13:34:25,297 DEBUG StatusDaemon: []
+2020-07-14 13:35:24,301 DEBUG StatusDaemon: []
+2020-07-14 13:36:23,304 DEBUG StatusDaemon: []
+2020-07-14 13:37:22,308 DEBUG StatusDaemon: []
+2020-07-14 13:38:21,311 DEBUG StatusDaemon: []
+2020-07-14 13:39:20,315 DEBUG StatusDaemon: []
+2020-07-14 13:40:19,318 DEBUG StatusDaemon: []
+2020-07-14 13:41:18,322 DEBUG StatusDaemon: []
+2020-07-14 13:42:17,326 DEBUG StatusDaemon: []
+2020-07-14 13:43:16,332 DEBUG StatusDaemon: []
+2020-07-14 13:44:15,337 DEBUG StatusDaemon: []
+2020-07-14 13:45:14,342 DEBUG StatusDaemon: []
+2020-07-14 13:46:13,346 DEBUG StatusDaemon: []
+2020-07-14 13:47:12,351 DEBUG StatusDaemon: []
+2020-07-14 13:48:11,356 DEBUG StatusDaemon: []
+2020-07-14 13:49:10,360 DEBUG StatusDaemon: []
+2020-07-14 13:50:09,364 DEBUG StatusDaemon: []
+2020-07-14 13:51:08,369 DEBUG StatusDaemon: []
+2020-07-14 13:52:07,373 DEBUG StatusDaemon: []
+2020-07-14 13:53:06,377 DEBUG StatusDaemon: []
+2020-07-14 13:54:05,381 DEBUG StatusDaemon: []
+2020-07-14 13:55:04,385 DEBUG StatusDaemon: []
+2020-07-14 13:56:03,388 DEBUG StatusDaemon: []
+2020-07-14 13:57:02,392 DEBUG StatusDaemon: []
+2020-07-14 13:58:01,396 DEBUG StatusDaemon: []
+2020-07-14 13:59:00,400 DEBUG StatusDaemon: []
+2020-07-14 13:59:59,404 DEBUG StatusDaemon: []
+2020-07-14 14:00:58,408 DEBUG StatusDaemon: []
+2020-07-14 14:01:57,411 DEBUG StatusDaemon: []
+2020-07-14 14:02:56,415 DEBUG StatusDaemon: []
+2020-07-14 14:03:55,419 DEBUG StatusDaemon: []
+2020-07-14 14:04:54,422 DEBUG StatusDaemon: []
+2020-07-14 14:05:53,426 DEBUG StatusDaemon: []
+2020-07-14 14:06:52,429 DEBUG StatusDaemon: []
+2020-07-14 14:07:51,433 DEBUG StatusDaemon: []
+2020-07-14 14:08:50,437 DEBUG StatusDaemon: []
+2020-07-14 14:09:49,441 DEBUG StatusDaemon: []
+2020-07-14 14:10:48,444 DEBUG StatusDaemon: []
+2020-07-14 14:11:47,448 DEBUG StatusDaemon: []
+2020-07-14 14:12:46,451 DEBUG StatusDaemon: []
+2020-07-14 14:13:45,455 DEBUG StatusDaemon: []
+2020-07-14 14:14:44,458 DEBUG StatusDaemon: []
+2020-07-14 14:15:43,462 DEBUG StatusDaemon: []
+2020-07-14 14:16:42,465 DEBUG StatusDaemon: []
+2020-07-14 14:17:41,469 DEBUG StatusDaemon: []
+2020-07-14 14:18:40,472 DEBUG StatusDaemon: []
+2020-07-14 14:19:39,476 DEBUG StatusDaemon: []
+2020-07-14 14:20:38,479 DEBUG StatusDaemon: []
+2020-07-14 14:21:37,483 DEBUG StatusDaemon: []
+2020-07-14 14:22:36,487 DEBUG StatusDaemon: []
+2020-07-14 14:23:35,490 DEBUG StatusDaemon: []
+2020-07-14 14:24:34,494 DEBUG StatusDaemon: []
+2020-07-14 14:25:33,497 DEBUG StatusDaemon: []
+2020-07-14 14:26:32,501 DEBUG StatusDaemon: []
+2020-07-14 14:27:31,504 DEBUG StatusDaemon: []
+2020-07-14 14:28:30,508 DEBUG StatusDaemon: []
+2020-07-14 14:29:29,511 DEBUG StatusDaemon: []
+2020-07-14 14:30:28,515 DEBUG StatusDaemon: []
+2020-07-14 14:31:27,518 DEBUG StatusDaemon: []
+2020-07-14 14:32:26,522 DEBUG StatusDaemon: []
+2020-07-14 14:33:25,525 DEBUG StatusDaemon: []
+2020-07-14 14:34:24,529 DEBUG StatusDaemon: []
+2020-07-14 14:35:23,532 DEBUG StatusDaemon: []
+2020-07-14 14:36:22,536 DEBUG StatusDaemon: []
+2020-07-14 14:37:21,539 DEBUG StatusDaemon: []
+2020-07-14 14:38:20,543 DEBUG StatusDaemon: []
+2020-07-14 14:39:19,546 DEBUG StatusDaemon: []
+2020-07-14 14:40:18,550 DEBUG StatusDaemon: []
+2020-07-14 14:41:17,553 DEBUG StatusDaemon: []
+2020-07-14 14:42:16,557 DEBUG StatusDaemon: []
+2020-07-14 14:43:15,561 DEBUG StatusDaemon: []
+2020-07-14 14:44:14,564 DEBUG StatusDaemon: []
+2020-07-14 14:45:13,568 DEBUG StatusDaemon: []
+2020-07-14 14:46:12,571 DEBUG StatusDaemon: []
+2020-07-14 14:47:11,575 DEBUG StatusDaemon: []
+2020-07-14 14:48:10,578 DEBUG StatusDaemon: []
+2020-07-14 14:49:09,582 DEBUG StatusDaemon: []
+2020-07-14 14:50:08,585 DEBUG StatusDaemon: []
+2020-07-14 14:51:07,591 DEBUG StatusDaemon: []
+2020-07-14 14:52:06,597 DEBUG StatusDaemon: []
+2020-07-14 14:53:05,602 DEBUG StatusDaemon: []
+2020-07-14 14:54:04,606 DEBUG StatusDaemon: []
+2020-07-14 14:55:03,611 DEBUG StatusDaemon: []
+2020-07-14 14:56:02,615 DEBUG StatusDaemon: []
+2020-07-14 14:57:01,620 DEBUG StatusDaemon: []
+2020-07-14 14:58:00,624 DEBUG StatusDaemon: []
+2020-07-14 14:58:59,628 DEBUG StatusDaemon: []
+2020-07-14 14:59:58,633 DEBUG StatusDaemon: []
+2020-07-14 15:00:57,636 DEBUG StatusDaemon: []
+2020-07-14 15:01:56,640 DEBUG StatusDaemon: []
+2020-07-14 15:02:55,643 DEBUG StatusDaemon: []
+2020-07-14 15:03:54,647 DEBUG StatusDaemon: []
+2020-07-14 15:04:53,665 DEBUG StatusDaemon: []
+2020-07-14 15:05:52,669 DEBUG StatusDaemon: []
+2020-07-14 15:06:51,678 DEBUG StatusDaemon: []
+2020-07-14 15:07:50,682 DEBUG StatusDaemon: []
+2020-07-14 15:08:49,686 DEBUG StatusDaemon: []
+2020-07-14 15:09:15,885 INFO LoggingServer started
+2020-07-14 15:09:15,885 INFO Agent: Initializing Agent
+2020-07-14 15:09:15,885 DEBUG Agent: Using DB for scheds data
+2020-07-14 15:09:15,885 INFO TemplateResolverBuilder: Scheduler SLURM wasn't found. Output: Command sinfo --clusters="all" --format="%a %N %C %T %m %O %R %z" returned with exit status 1.
+Output: "sinfo" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 15:09:15,885 INFO TemplateResolverBuilder: Scheduler TORQUE wasn't found. Output: Command momctl -q ncpus returned with exit status 1.
+Output: "momctl" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 15:09:15,885 INFO TemplateResolverBuilder: Scheduler Mr. Tester Unix v0.1 wasn't found. Output: Command DUMMY returned with exit status 1.
+Output: "DUMMY" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 15:09:15,885 INFO TemplateResolverBuilder: Scheduler Mr. Tester Win v0.1 wasn't found. Output: Command type D:\ckd-sched\ckd-client\sinfo_out_3 returned with exit status 1.
+Output: Не удается найти указанный файл.
+2020-07-14 15:09:15,885 INFO TemplateResolverBuilder: Scheduler SYPPZ wasn't found. Output: Command mfree returned with exit status 1.
+Output: "mfree" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 15:09:15,885 INFO TemplateResolverBuilder: Scheduler Windows job manager wasn't found. Output: Command node list returned with exit status 1.
+Output: internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Windows\system32\list'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:266:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:596:3)
+2020-07-14 15:09:15,885 INFO Agent: Error during the initialization of TemplateResolver: Unknown scheduler or no scheduler was foundAwaiting first connection to complete the initialization
+2020-07-14 15:09:15,885 INFO TaskServer: Created instance of TaskServer
+2020-07-14 15:09:15,885 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-14 15:09:15,885 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-14 15:09:15,885 INFO Agent: Started Agent.TaskServerProcess
+2020-07-14 15:09:15,885 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-14 15:09:16,041 INFO TaskServer: Starting TaskServer
+2020-07-14 15:09:16,041 DEBUG TaskServer: _loop called
+2020-07-14 15:09:16,604 INFO StatusDaemon: Starting StatusDaemon
+2020-07-14 15:09:16,604 DEBUG StatusDaemon: _loop called
+2020-07-14 15:09:16,604 DEBUG StatusDaemon: []
+2020-07-14 15:09:31,307 DEBUG RequestHandler: Async Handling connection
+2020-07-14 15:09:33,308 ERROR StreamsHandler: Request response: {
+    "error": "",
+    "message": "Handler Error:",
+    "task_info": {
+        "status": "ERROR"
+    }
+}
+2020-07-14 15:09:33,308 DEBUG StreamsHandler: Response sent.
+2020-07-14 15:36:03,040 INFO LoggingServer started
+2020-07-14 15:36:03,040 INFO Agent: Initializing Agent
+2020-07-14 15:36:03,040 DEBUG Agent: Using DB for scheds data
+2020-07-14 15:36:03,040 INFO TemplateResolverBuilder: Scheduler SLURM wasn't found. Output: Command sinfo --clusters="all" --format="%a %N %C %T %m %O %R %z" returned with exit status 1.
+Output: "sinfo" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 15:36:03,040 INFO TemplateResolverBuilder: Scheduler TORQUE wasn't found. Output: Command momctl -q ncpus returned with exit status 1.
+Output: "momctl" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 15:36:03,040 INFO TemplateResolverBuilder: Scheduler Mr. Tester Unix v0.1 wasn't found. Output: Command DUMMY returned with exit status 1.
+Output: "DUMMY" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 15:36:03,040 INFO TemplateResolverBuilder: Scheduler Mr. Tester Win v0.1 wasn't found. Output: Command type D:\ckd-sched\ckd-client\sinfo_out_3 returned with exit status 1.
+Output: Не удается найти указанный файл.
+2020-07-14 15:36:03,040 INFO TemplateResolverBuilder: Scheduler SYPPZ wasn't found. Output: Command mfree returned with exit status 1.
+Output: "mfree" не является внутренней или внешней
+командой, исполняемой программой или пакетным файлом.
+2020-07-14 15:36:03,040 INFO TemplateResolverBuilder: Scheduler Windows job manager wasn't found. Output: Command node list returned with exit status 1.
+Output: internal/modules/cjs/loader.js:583
+    throw err;
+    ^
+
+Error: Cannot find module 'C:\Windows\system32\list'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
+    at startup (internal/bootstrap/node.js:266:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:596:3)
+2020-07-14 15:36:03,040 INFO Agent: Error during the initialization of TemplateResolver: Unknown scheduler or no scheduler was foundAwaiting first connection to complete the initialization
+2020-07-14 15:36:03,040 INFO TaskServer: Created instance of TaskServer
+2020-07-14 15:36:03,040 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-14 15:36:03,040 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-14 15:36:03,040 INFO Agent: Started Agent.TaskServerProcess
+2020-07-14 15:36:03,040 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-14 15:36:03,243 INFO TaskServer: Starting TaskServer
+2020-07-14 15:36:03,243 DEBUG TaskServer: _loop called
+2020-07-14 15:36:04,134 INFO StatusDaemon: Starting StatusDaemon
+2020-07-14 15:36:04,134 DEBUG StatusDaemon: _loop called
+2020-07-14 15:36:04,134 DEBUG StatusDaemon: []
+2020-07-14 15:37:03,149 DEBUG StatusDaemon: []
+2020-07-14 15:38:02,154 DEBUG StatusDaemon: []
+2020-07-14 15:39:01,156 DEBUG StatusDaemon: []
+2020-07-14 15:40:00,159 DEBUG StatusDaemon: []
+2020-07-14 15:40:59,164 DEBUG StatusDaemon: []
+2020-07-14 15:41:58,170 DEBUG StatusDaemon: []
+2020-07-14 15:42:57,174 DEBUG StatusDaemon: []
+2020-07-14 15:43:56,178 DEBUG StatusDaemon: []
+2020-07-14 15:44:55,183 DEBUG StatusDaemon: []
+2020-07-14 15:45:54,187 DEBUG StatusDaemon: []
+2020-07-14 15:46:53,191 DEBUG StatusDaemon: []
+2020-07-14 15:47:52,195 DEBUG StatusDaemon: []
+2020-07-14 15:48:51,199 DEBUG StatusDaemon: []
+2020-07-14 15:49:50,203 DEBUG StatusDaemon: []
+2020-07-14 15:50:49,207 DEBUG StatusDaemon: []
+2020-07-14 15:51:48,211 DEBUG StatusDaemon: []
+2020-07-14 15:52:47,215 DEBUG StatusDaemon: []
+2020-07-14 15:53:46,219 DEBUG StatusDaemon: []
+2020-07-14 15:54:45,223 DEBUG StatusDaemon: []
+2020-07-14 15:55:44,227 DEBUG StatusDaemon: []
+2020-07-14 15:56:43,230 DEBUG StatusDaemon: []
+2020-07-14 15:57:42,234 DEBUG StatusDaemon: []
+2020-07-14 15:58:41,238 DEBUG StatusDaemon: []
+2020-07-14 15:59:40,241 DEBUG StatusDaemon: []
+2020-07-14 16:00:39,245 DEBUG StatusDaemon: []
+2020-07-14 16:01:38,249 DEBUG StatusDaemon: []
+2020-07-14 16:02:37,252 DEBUG StatusDaemon: []
+2020-07-14 16:03:36,256 DEBUG StatusDaemon: []
+2020-07-14 16:04:35,259 DEBUG StatusDaemon: []
+2020-07-14 16:05:34,263 DEBUG StatusDaemon: []
+2020-07-14 16:06:33,266 DEBUG StatusDaemon: []
+2020-07-14 16:07:32,270 DEBUG StatusDaemon: []
+2020-07-14 16:08:31,273 DEBUG StatusDaemon: []
+2020-07-14 16:09:30,277 DEBUG StatusDaemon: []
+2020-07-14 16:10:29,281 DEBUG StatusDaemon: []
+2020-07-14 16:11:28,284 DEBUG StatusDaemon: []
+2020-07-14 16:12:27,288 DEBUG StatusDaemon: []
+2020-07-14 16:13:26,292 DEBUG StatusDaemon: []
+2020-07-14 16:14:25,295 DEBUG StatusDaemon: []
+2020-07-14 16:15:24,299 DEBUG StatusDaemon: []
+2020-07-14 16:16:23,302 DEBUG StatusDaemon: []
+2020-07-14 16:17:22,306 DEBUG StatusDaemon: []
+2020-07-14 16:18:21,309 DEBUG StatusDaemon: []
+2020-07-14 16:19:20,313 DEBUG StatusDaemon: []
+2020-07-14 16:20:19,316 DEBUG StatusDaemon: []
+2020-07-14 16:21:18,320 DEBUG StatusDaemon: []
+2020-07-14 16:22:17,323 DEBUG StatusDaemon: []
+2020-07-14 16:23:16,327 DEBUG StatusDaemon: []
+2020-07-14 16:24:15,330 DEBUG StatusDaemon: []
+2020-07-14 16:25:14,334 DEBUG StatusDaemon: []
+2020-07-14 16:26:13,337 DEBUG StatusDaemon: []
+2020-07-14 16:27:12,341 DEBUG StatusDaemon: []
+2020-07-14 16:28:11,345 DEBUG StatusDaemon: []
+2020-07-14 16:29:10,348 DEBUG StatusDaemon: []
+2020-07-14 16:30:09,352 DEBUG StatusDaemon: []
+2020-07-14 16:31:08,355 DEBUG StatusDaemon: []
+2020-07-14 16:32:07,359 DEBUG StatusDaemon: []
+2020-07-14 16:33:06,362 DEBUG StatusDaemon: []
+2020-07-14 16:34:05,366 DEBUG StatusDaemon: []
+2020-07-14 16:35:04,369 DEBUG StatusDaemon: []
+2020-07-14 16:36:03,373 DEBUG StatusDaemon: []
+2020-07-14 16:37:02,376 DEBUG StatusDaemon: []
+2020-07-14 16:38:01,380 DEBUG StatusDaemon: []
+2020-07-14 16:39:00,385 DEBUG StatusDaemon: []
+2020-07-14 16:39:59,391 DEBUG StatusDaemon: []
+2020-07-14 16:40:58,396 DEBUG StatusDaemon: []
+2020-07-14 16:41:57,400 DEBUG StatusDaemon: []
+2020-07-14 16:42:56,405 DEBUG StatusDaemon: []
+2020-07-14 16:43:55,409 DEBUG StatusDaemon: []
+2020-07-14 16:44:54,413 DEBUG StatusDaemon: []
+2020-07-14 16:45:53,418 DEBUG StatusDaemon: []
+2020-07-14 16:46:52,422 DEBUG StatusDaemon: []
+2020-07-14 16:47:51,426 DEBUG StatusDaemon: []
+2020-07-14 16:48:50,430 DEBUG StatusDaemon: []
+2020-07-14 16:49:49,434 DEBUG StatusDaemon: []
+2020-07-14 16:50:48,440 DEBUG StatusDaemon: []
+2020-07-14 16:51:47,451 DEBUG StatusDaemon: []
+2020-07-14 16:52:46,465 DEBUG StatusDaemon: []
+2020-07-14 16:53:45,468 DEBUG StatusDaemon: []
+2020-07-14 16:54:44,471 DEBUG StatusDaemon: []
+2020-07-14 16:55:43,475 DEBUG StatusDaemon: []
+2020-07-14 16:56:42,479 DEBUG StatusDaemon: []
+2020-07-14 16:57:41,482 DEBUG StatusDaemon: []
+2020-07-14 16:58:40,486 DEBUG StatusDaemon: []
+2020-07-14 16:59:39,489 DEBUG StatusDaemon: []
+2020-07-14 17:00:38,493 DEBUG StatusDaemon: []
+2020-07-14 17:01:37,501 DEBUG StatusDaemon: []
+2020-07-14 17:02:36,504 DEBUG StatusDaemon: []
+2020-07-14 17:03:35,507 DEBUG StatusDaemon: []
+2020-07-14 17:04:34,511 DEBUG StatusDaemon: []
+2020-07-14 17:05:33,517 DEBUG StatusDaemon: []
+2020-07-14 17:06:32,522 DEBUG StatusDaemon: []
+2020-07-14 17:07:31,526 DEBUG StatusDaemon: []
+2020-07-14 17:08:30,530 DEBUG StatusDaemon: []
+2020-07-14 17:09:29,534 DEBUG StatusDaemon: []
+2020-07-14 17:10:28,539 DEBUG StatusDaemon: []
+2020-07-14 17:11:27,543 DEBUG StatusDaemon: []
+2020-07-14 17:12:26,547 DEBUG StatusDaemon: []
+2020-07-14 17:13:25,551 DEBUG StatusDaemon: []
+2020-07-14 17:14:24,555 DEBUG StatusDaemon: []
+2020-07-14 17:15:23,559 DEBUG StatusDaemon: []
+2020-07-14 17:16:22,563 DEBUG StatusDaemon: []
+2020-07-14 17:17:21,567 DEBUG StatusDaemon: []
+2020-07-14 17:18:20,570 DEBUG StatusDaemon: []
+2020-07-14 17:19:19,574 DEBUG StatusDaemon: []
+2020-07-14 17:20:18,578 DEBUG StatusDaemon: []
+2020-07-14 17:21:17,582 DEBUG StatusDaemon: []
+2020-07-14 17:22:16,585 DEBUG StatusDaemon: []
+2020-07-14 17:23:15,589 DEBUG StatusDaemon: []
+2020-07-14 17:24:14,593 DEBUG StatusDaemon: []
+2020-07-14 17:25:13,596 DEBUG StatusDaemon: []
+2020-07-14 17:26:12,600 DEBUG StatusDaemon: []
+2020-07-14 17:27:11,603 DEBUG StatusDaemon: []
+2020-07-14 17:28:10,607 DEBUG StatusDaemon: []
+2020-07-14 17:29:09,619 DEBUG StatusDaemon: []
+2020-07-14 17:30:08,623 DEBUG StatusDaemon: []
+2020-07-14 17:31:07,639 DEBUG StatusDaemon: []
+2020-07-14 17:32:06,653 DEBUG StatusDaemon: []
+2020-07-14 17:33:05,670 DEBUG StatusDaemon: []
+2020-07-14 17:34:04,684 DEBUG StatusDaemon: []
+2020-07-14 17:35:03,689 DEBUG StatusDaemon: []
+2020-07-14 17:36:02,693 DEBUG StatusDaemon: []
+2020-07-14 17:37:01,697 DEBUG StatusDaemon: []
+2020-07-14 17:38:00,701 DEBUG StatusDaemon: []
+2020-07-14 17:38:59,705 DEBUG StatusDaemon: []
+2020-07-14 17:39:58,709 DEBUG StatusDaemon: []
+2020-07-14 17:40:57,712 DEBUG StatusDaemon: []
+2020-07-14 17:41:56,716 DEBUG StatusDaemon: []
+2020-07-14 17:42:55,720 DEBUG StatusDaemon: []
+2020-07-14 17:43:54,724 DEBUG StatusDaemon: []
+2020-07-14 17:44:53,742 DEBUG StatusDaemon: []
+2020-07-14 17:45:52,752 DEBUG StatusDaemon: []
+2020-07-14 17:46:51,759 DEBUG StatusDaemon: []
+2020-07-14 17:47:50,762 DEBUG StatusDaemon: []
+2020-07-14 17:48:49,772 DEBUG StatusDaemon: []
+2020-07-14 17:49:48,778 DEBUG StatusDaemon: []
+2020-07-14 17:50:47,781 DEBUG StatusDaemon: []
+2020-07-14 17:51:46,785 DEBUG StatusDaemon: []
+2020-07-14 17:52:45,788 DEBUG StatusDaemon: []
+2020-07-14 17:53:44,796 DEBUG StatusDaemon: []
+2020-07-14 17:54:43,800 DEBUG StatusDaemon: []
+2020-07-14 17:55:42,803 DEBUG StatusDaemon: []
+2020-07-14 17:56:41,806 DEBUG StatusDaemon: []
+2020-07-14 17:57:40,810 DEBUG StatusDaemon: []
+2020-07-14 17:58:39,813 DEBUG StatusDaemon: []
+2020-07-14 17:59:38,816 DEBUG StatusDaemon: []
+2020-07-14 18:00:37,822 DEBUG StatusDaemon: []
+2020-07-14 18:01:36,827 DEBUG StatusDaemon: []
+2020-07-14 18:02:35,831 DEBUG StatusDaemon: []
+2020-07-14 18:03:34,836 DEBUG StatusDaemon: []
+2020-07-14 18:04:33,854 DEBUG StatusDaemon: []
+2020-07-14 18:05:32,866 DEBUG StatusDaemon: []
+2020-07-14 18:06:31,872 DEBUG StatusDaemon: []
+2020-07-14 18:07:30,875 DEBUG StatusDaemon: []
+2020-07-14 18:08:29,879 DEBUG StatusDaemon: []
+2020-07-14 18:09:28,882 DEBUG StatusDaemon: []
+2020-07-14 18:10:27,886 DEBUG StatusDaemon: []
+2020-07-14 18:11:26,899 DEBUG StatusDaemon: []
+2020-07-14 18:12:25,905 DEBUG StatusDaemon: []
+2020-07-14 18:13:24,922 DEBUG StatusDaemon: []
+2020-07-14 18:14:23,928 DEBUG StatusDaemon: []
+2020-07-14 18:15:22,932 DEBUG StatusDaemon: []
+2020-07-14 18:16:21,936 DEBUG StatusDaemon: []
+2020-07-14 18:17:20,942 DEBUG StatusDaemon: []
+2020-07-14 18:18:19,946 DEBUG StatusDaemon: []
+2020-07-14 18:19:18,951 DEBUG StatusDaemon: []
+2020-07-14 18:20:17,955 DEBUG StatusDaemon: []
+2020-07-15 18:23:41,832 INFO LoggingServer started
+2020-07-15 18:23:41,941 INFO Agent: Initializing Agent
+2020-07-15 18:23:41,941 INFO Agent: Error during the initialization of TemplateResolver: Bad URL: HTTP Error 404: Not FoundAwaiting first connection to complete the initialization
+2020-07-15 18:23:41,941 INFO TaskServer: Created instance of TaskServer
+2020-07-15 18:23:41,941 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-15 18:23:41,941 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			INFO
+	scheduler:				None
+
+2020-07-15 18:23:41,941 INFO Agent: Started Agent.TaskServerProcess
+2020-07-15 18:23:41,941 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-15 18:23:54,600 INFO TaskServer: Starting TaskServer
+2020-07-15 18:23:54,616 INFO StatusDaemon: Starting StatusDaemon
+2020-07-16 08:45:57,768 INFO LoggingServer started
+2020-07-16 08:45:57,783 INFO Agent: Initializing Agent
+2020-07-16 08:45:57,783 DEBUG Agent: Using DB for scheds data
+2020-07-16 08:45:57,783 INFO Agent: Error during the initialization of TemplateResolver: Bad URL: <urlopen error [WinError 10061] ╧юфъы■ўхэшх эх єёЄрэютыхэю, Є.ъ. ъюэхўэ√щ ъюья№■ЄхЁ юЄтхЁу чряЁюё эр яюфъы■ўхэшх>Awaiting first connection to complete the initialization
+2020-07-16 08:45:57,783 INFO TaskServer: Created instance of TaskServer
+2020-07-16 08:45:57,783 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-16 08:45:57,783 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-16 08:45:57,783 INFO Agent: Started Agent.TaskServerProcess
+2020-07-16 08:45:57,783 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-16 08:45:58,034 INFO TaskServer: Starting TaskServer
+2020-07-16 08:45:58,049 DEBUG TaskServer: _loop called
+2020-07-16 08:45:58,065 INFO StatusDaemon: Starting StatusDaemon
+2020-07-16 08:45:58,065 DEBUG StatusDaemon: _loop called
+2020-07-16 08:45:58,065 DEBUG StatusDaemon: []
+2020-07-16 08:46:14,185 INFO LoggingServer started
+2020-07-16 08:46:14,185 INFO Agent: Initializing Agent
+2020-07-16 08:46:14,185 DEBUG Agent: Using DB for scheds data
+2020-07-16 08:46:14,185 INFO Agent: Error during the initialization of TemplateResolver: Bad URL: <urlopen error [WinError 10061] ╧юфъы■ўхэшх эх єёЄрэютыхэю, Є.ъ. ъюэхўэ√щ ъюья№■ЄхЁ юЄтхЁу чряЁюё эр яюфъы■ўхэшх>Awaiting first connection to complete the initialization
+2020-07-16 08:46:14,185 INFO TaskServer: Created instance of TaskServer
+2020-07-16 08:46:14,185 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-16 08:46:14,185 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-16 08:46:14,185 INFO Agent: Started Agent.TaskServerProcess
+2020-07-16 08:46:14,185 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-16 08:46:14,435 INFO TaskServer: Starting TaskServer
+2020-07-16 08:46:14,435 DEBUG TaskServer: _loop called
+2020-07-16 08:46:14,435 INFO StatusDaemon: Starting StatusDaemon
+2020-07-16 08:46:14,435 DEBUG StatusDaemon: _loop called
+2020-07-16 08:46:14,435 DEBUG StatusDaemon: []
+2020-07-16 08:59:58,060 INFO LoggingServer started
+2020-07-16 08:59:58,060 INFO Agent: Initializing Agent
+2020-07-16 08:59:58,060 DEBUG Agent: Using DB for scheds data
+2020-07-16 08:59:58,060 INFO Agent: Error during the initialization of TemplateResolver: Bad URL: <urlopen error [WinError 10061] ╧юфъы■ўхэшх эх єёЄрэютыхэю, Є.ъ. ъюэхўэ√щ ъюья№■ЄхЁ юЄтхЁу чряЁюё эр яюфъы■ўхэшх>Awaiting first connection to complete the initialization
+2020-07-16 08:59:58,060 INFO TaskServer: Created instance of TaskServer
+2020-07-16 08:59:58,060 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-16 08:59:58,060 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-16 08:59:58,060 INFO Agent: Started Agent.TaskServerProcess
+2020-07-16 08:59:58,060 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-16 08:59:58,389 INFO TaskServer: Starting TaskServer
+2020-07-16 08:59:58,389 INFO StatusDaemon: Starting StatusDaemon
+2020-07-16 08:59:58,389 DEBUG StatusDaemon: _loop called
+2020-07-16 08:59:58,389 DEBUG TaskServer: _loop called
+2020-07-16 08:59:58,389 DEBUG StatusDaemon: []
+2020-07-16 09:00:16,425 INFO LoggingServer started
+2020-07-16 09:00:16,425 INFO Agent: Initializing Agent
+2020-07-16 09:00:16,425 DEBUG Agent: Using DB for scheds data
+2020-07-16 09:00:16,425 INFO Agent: Error during the initialization of TemplateResolver: Bad URL: <urlopen error [WinError 10061] ╧юфъы■ўхэшх эх єёЄрэютыхэю, Є.ъ. ъюэхўэ√щ ъюья№■ЄхЁ юЄтхЁу чряЁюё эр яюфъы■ўхэшх>Awaiting first connection to complete the initialization
+2020-07-16 09:00:16,425 INFO TaskServer: Created instance of TaskServer
+2020-07-16 09:00:16,425 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-16 09:00:16,425 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-16 09:00:16,425 INFO Agent: Started Agent.TaskServerProcess
+2020-07-16 09:00:16,425 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-16 09:00:16,769 INFO StatusDaemon: Starting StatusDaemon
+2020-07-16 09:00:16,769 INFO TaskServer: Starting TaskServer
+2020-07-16 09:00:16,769 DEBUG StatusDaemon: _loop called
+2020-07-16 09:00:16,769 DEBUG TaskServer: _loop called
+2020-07-16 09:00:16,769 DEBUG StatusDaemon: []
+2020-07-16 09:01:15,796 DEBUG StatusDaemon: []
+2020-07-16 09:02:14,817 DEBUG StatusDaemon: []
+2020-07-16 09:03:13,831 DEBUG StatusDaemon: []
+2020-07-16 09:04:12,854 DEBUG StatusDaemon: []
+2020-07-16 09:05:11,868 DEBUG StatusDaemon: []
+2020-07-16 09:06:10,880 DEBUG StatusDaemon: []
+2020-07-16 09:07:09,891 DEBUG StatusDaemon: []
+2020-07-16 09:08:08,901 DEBUG StatusDaemon: []
+2020-07-16 09:09:07,910 DEBUG StatusDaemon: []
+2020-07-16 09:10:06,918 DEBUG StatusDaemon: []
+2020-07-16 09:11:05,933 DEBUG StatusDaemon: []
+2020-07-16 09:12:04,952 DEBUG StatusDaemon: []
+2020-07-16 09:13:03,963 DEBUG StatusDaemon: []
+2020-07-16 10:34:49,819 INFO LoggingServer started
+2020-07-16 10:34:49,835 INFO Agent: Initializing Agent
+2020-07-16 10:34:49,835 DEBUG Agent: Using DB for scheds data
+2020-07-16 10:34:49,835 INFO Agent: Error during the initialization of TemplateResolver: Bad URL: <urlopen error [WinError 10061] ╧юфъы■ўхэшх эх єёЄрэютыхэю, Є.ъ. ъюэхўэ√щ ъюья№■ЄхЁ юЄтхЁу чряЁюё эр яюфъы■ўхэшх>Awaiting first connection to complete the initialization
+2020-07-16 10:34:49,835 INFO TaskServer: Created instance of TaskServer
+2020-07-16 10:34:49,835 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-16 10:34:49,835 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-16 10:34:49,835 INFO Agent: Started Agent.TaskServerProcess
+2020-07-16 10:34:49,835 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-16 10:34:50,587 INFO TaskServer: Starting TaskServer
+2020-07-16 10:34:50,587 DEBUG TaskServer: _loop called
+2020-07-16 10:34:52,233 INFO StatusDaemon: Starting StatusDaemon
+2020-07-16 10:34:52,233 DEBUG StatusDaemon: _loop called
+2020-07-16 10:34:52,233 DEBUG StatusDaemon: []
+2020-07-16 10:35:51,238 DEBUG StatusDaemon: []
+2020-07-16 10:36:50,242 DEBUG StatusDaemon: []
+2020-07-16 10:37:49,246 DEBUG StatusDaemon: []
+2020-07-16 10:38:48,250 DEBUG StatusDaemon: []
+2020-07-16 10:39:47,254 DEBUG StatusDaemon: []
+2020-07-16 10:40:46,258 DEBUG StatusDaemon: []
+2020-07-16 10:41:45,261 DEBUG StatusDaemon: []
+2020-07-16 10:42:44,265 DEBUG StatusDaemon: []
+2020-07-16 10:43:43,269 DEBUG StatusDaemon: []
+2020-07-16 10:44:42,273 DEBUG StatusDaemon: []
+2020-07-16 10:45:41,276 DEBUG StatusDaemon: []
+2020-07-16 10:46:40,280 DEBUG StatusDaemon: []
+2020-07-16 10:47:39,284 DEBUG StatusDaemon: []
+2020-07-16 10:48:38,287 DEBUG StatusDaemon: []
+2020-07-16 10:49:37,291 DEBUG StatusDaemon: []
+2020-07-16 10:50:36,294 DEBUG StatusDaemon: []
+2020-07-16 10:51:35,298 DEBUG StatusDaemon: []
+2020-07-16 10:52:34,302 DEBUG StatusDaemon: []
+2020-07-16 10:53:33,305 DEBUG StatusDaemon: []
+2020-07-16 10:54:32,309 DEBUG StatusDaemon: []
+2020-07-16 10:55:31,312 DEBUG StatusDaemon: []
+2020-07-16 10:56:30,316 DEBUG StatusDaemon: []
+2020-07-16 10:57:29,319 DEBUG StatusDaemon: []
+2020-07-16 10:58:28,323 DEBUG StatusDaemon: []
+2020-07-16 10:59:27,327 DEBUG StatusDaemon: []
+2020-07-16 11:00:26,330 DEBUG StatusDaemon: []
+2020-07-16 11:01:25,334 DEBUG StatusDaemon: []
+2020-07-16 11:02:24,337 DEBUG StatusDaemon: []
+2020-07-16 11:03:23,341 DEBUG StatusDaemon: []
+2020-07-16 11:04:22,345 DEBUG StatusDaemon: []
+2020-07-16 11:05:21,348 DEBUG StatusDaemon: []
+2020-07-16 11:06:20,352 DEBUG StatusDaemon: []
+2020-07-16 11:07:19,355 DEBUG StatusDaemon: []
+2020-07-16 11:08:18,359 DEBUG StatusDaemon: []
+2020-07-16 11:09:17,363 DEBUG StatusDaemon: []
+2020-07-16 11:10:16,366 DEBUG StatusDaemon: []
+2020-07-16 11:11:15,370 DEBUG StatusDaemon: []
+2020-07-16 11:12:14,373 DEBUG StatusDaemon: []
+2020-07-16 11:13:13,377 DEBUG StatusDaemon: []
+2020-07-16 11:14:12,381 DEBUG StatusDaemon: []
+2020-07-16 11:15:11,384 DEBUG StatusDaemon: []
+2020-07-16 11:16:10,388 DEBUG StatusDaemon: []
+2020-07-16 11:17:09,391 DEBUG StatusDaemon: []
+2020-07-16 11:18:08,395 DEBUG StatusDaemon: []
+2020-07-16 11:19:07,401 DEBUG StatusDaemon: []
+2020-07-16 11:20:06,406 DEBUG StatusDaemon: []
+2020-07-16 11:21:05,410 DEBUG StatusDaemon: []
+2020-07-16 11:22:04,415 DEBUG StatusDaemon: []
+2020-07-16 11:23:03,419 DEBUG StatusDaemon: []
+2020-07-16 11:24:02,424 DEBUG StatusDaemon: []
+2020-07-16 11:25:01,428 DEBUG StatusDaemon: []
+2020-07-16 11:26:00,433 DEBUG StatusDaemon: []
+2020-07-16 11:26:59,437 DEBUG StatusDaemon: []
+2020-07-16 11:27:58,441 DEBUG StatusDaemon: []
+2020-07-16 11:28:57,445 DEBUG StatusDaemon: []
+2020-07-16 11:29:56,449 DEBUG StatusDaemon: []
+2020-07-16 11:30:55,453 DEBUG StatusDaemon: []
+2020-07-16 11:31:54,457 DEBUG StatusDaemon: []
+2020-07-16 11:32:53,461 DEBUG StatusDaemon: []
+2020-07-16 11:33:52,465 DEBUG StatusDaemon: []
+2020-07-16 11:34:51,469 DEBUG StatusDaemon: []
+2020-07-16 11:35:50,473 DEBUG StatusDaemon: []
+2020-07-16 11:36:49,476 DEBUG StatusDaemon: []
+2020-07-16 11:37:48,480 DEBUG StatusDaemon: []
+2020-07-16 11:38:47,484 DEBUG StatusDaemon: []
+2020-07-16 11:39:46,488 DEBUG StatusDaemon: []
+2020-07-16 11:40:45,491 DEBUG StatusDaemon: []
+2020-07-16 11:41:44,495 DEBUG StatusDaemon: []
+2020-07-16 11:42:43,499 DEBUG StatusDaemon: []
+2020-07-16 11:43:42,502 DEBUG StatusDaemon: []
+2020-07-16 11:44:41,506 DEBUG StatusDaemon: []
+2020-07-16 11:45:40,509 DEBUG StatusDaemon: []
+2020-07-16 11:46:39,513 DEBUG StatusDaemon: []
+2020-07-16 11:47:38,517 DEBUG StatusDaemon: []
+2020-07-16 11:48:37,521 DEBUG StatusDaemon: []
+2020-07-16 11:49:36,524 DEBUG StatusDaemon: []
+2020-07-16 11:50:35,528 DEBUG StatusDaemon: []
+2020-07-16 11:51:34,531 DEBUG StatusDaemon: []
+2020-07-16 11:52:33,535 DEBUG StatusDaemon: []
+2020-07-16 11:53:32,539 DEBUG StatusDaemon: []
+2020-07-16 11:54:31,542 DEBUG StatusDaemon: []
+2020-07-16 11:55:30,546 DEBUG StatusDaemon: []
+2020-07-16 11:56:29,550 DEBUG StatusDaemon: []
+2020-07-16 11:57:28,553 DEBUG StatusDaemon: []
+2020-07-16 11:58:27,557 DEBUG StatusDaemon: []
+2020-07-16 11:59:26,560 DEBUG StatusDaemon: []
+2020-07-16 12:00:25,570 DEBUG StatusDaemon: []
+2020-07-16 12:01:24,589 DEBUG StatusDaemon: []
+2020-07-16 12:39:00,479 INFO LoggingServer started
+2020-07-16 12:39:00,479 INFO Agent: Initializing Agent
+2020-07-16 12:39:00,479 DEBUG Agent: Using DB for scheds data
+2020-07-16 12:39:00,479 INFO Agent: Error during the initialization of TemplateResolver: Bad URL: <urlopen error [WinError 10061] ╧юфъы■ўхэшх эх єёЄрэютыхэю, Є.ъ. ъюэхўэ√щ ъюья№■ЄхЁ юЄтхЁу чряЁюё эр яюфъы■ўхэшх>Awaiting first connection to complete the initialization
+2020-07-16 12:39:00,479 INFO TaskServer: Created instance of TaskServer
+2020-07-16 12:39:00,479 INFO StatusDaemon: Created instance of StatusDaemon
+2020-07-16 12:39:00,479 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121:8000
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			DEBUG
+	scheduler:				None
+
+2020-07-16 12:39:00,479 INFO Agent: Started Agent.TaskServerProcess
+2020-07-16 12:39:00,479 INFO Agent: Started Agent.StatusDaemonProcess
+2020-07-16 12:39:00,635 INFO TaskServer: Starting TaskServer
+2020-07-16 12:39:00,635 DEBUG TaskServer: _loop called
+2020-07-16 12:39:01,150 INFO StatusDaemon: Starting StatusDaemon
+2020-07-16 12:39:01,166 DEBUG StatusDaemon: _loop called
+2020-07-16 12:39:01,166 DEBUG StatusDaemon: []
+2020-07-16 12:40:00,175 DEBUG StatusDaemon: []
+2020-07-16 12:40:59,181 DEBUG StatusDaemon: []
+2020-07-16 12:41:58,186 DEBUG StatusDaemon: []
+2020-07-16 12:42:57,191 DEBUG StatusDaemon: []
+2020-07-16 12:43:56,196 DEBUG StatusDaemon: []
+2020-07-16 12:44:55,201 DEBUG StatusDaemon: []
+2020-07-16 12:45:54,205 DEBUG StatusDaemon: []
+2020-07-16 12:46:53,210 DEBUG StatusDaemon: []
+2020-07-16 12:47:52,214 DEBUG StatusDaemon: []
+2020-07-16 12:48:51,218 DEBUG StatusDaemon: []
+2020-07-16 12:49:50,222 DEBUG StatusDaemon: []
+2020-07-16 12:50:49,226 DEBUG StatusDaemon: []
+2020-07-16 12:51:48,230 DEBUG StatusDaemon: []
+2020-07-16 12:52:47,234 DEBUG StatusDaemon: []
+2020-07-16 12:53:46,238 DEBUG StatusDaemon: []
+2020-07-16 12:54:45,242 DEBUG StatusDaemon: []
+2020-07-16 12:55:44,245 DEBUG StatusDaemon: []
+2020-07-16 12:56:43,249 DEBUG StatusDaemon: []
+2020-07-16 12:57:42,253 DEBUG StatusDaemon: []
+2020-07-16 12:58:41,257 DEBUG StatusDaemon: []
+2020-07-16 12:59:40,260 DEBUG StatusDaemon: []
+2020-07-16 13:00:39,264 DEBUG StatusDaemon: []
+2020-07-16 13:01:38,268 DEBUG StatusDaemon: []
+2020-07-16 13:02:37,271 DEBUG StatusDaemon: []
+2020-07-16 13:03:36,275 DEBUG StatusDaemon: []
+2020-07-16 13:04:35,278 DEBUG StatusDaemon: []
+2020-07-16 13:05:34,282 DEBUG StatusDaemon: []
+2020-07-16 13:06:33,285 DEBUG StatusDaemon: []
+2020-07-16 13:07:32,289 DEBUG StatusDaemon: []
+2020-07-16 13:08:31,293 DEBUG StatusDaemon: []
+2020-07-16 13:09:30,296 DEBUG StatusDaemon: []
+2020-07-16 13:10:29,300 DEBUG StatusDaemon: []
+2020-07-16 13:11:28,303 DEBUG StatusDaemon: []
+2020-07-16 13:12:27,307 DEBUG StatusDaemon: []
+2020-07-16 13:13:26,311 DEBUG StatusDaemon: []
+2020-07-16 13:14:25,314 DEBUG StatusDaemon: []
+2020-07-16 13:15:24,318 DEBUG StatusDaemon: []
+2020-07-16 13:16:23,321 DEBUG StatusDaemon: []
+2020-07-16 13:17:22,325 DEBUG StatusDaemon: []
+2020-07-16 13:18:21,329 DEBUG StatusDaemon: []
+2020-07-16 13:19:20,332 DEBUG StatusDaemon: []
+2020-07-16 13:20:19,336 DEBUG StatusDaemon: []
+2020-07-16 13:21:18,339 DEBUG StatusDaemon: []
+2020-07-16 13:22:17,343 DEBUG StatusDaemon: []
+2020-07-16 13:23:16,347 DEBUG StatusDaemon: []
+2020-07-16 13:24:15,350 DEBUG StatusDaemon: []
+2020-07-16 13:25:14,354 DEBUG StatusDaemon: []
+2020-07-16 13:26:13,357 DEBUG StatusDaemon: []
+2020-07-16 13:27:12,361 DEBUG StatusDaemon: []
+2020-07-16 13:28:11,365 DEBUG StatusDaemon: []
+2020-07-16 13:29:10,368 DEBUG StatusDaemon: []
+2020-07-16 13:30:09,372 DEBUG StatusDaemon: []
+2020-07-16 13:31:08,375 DEBUG StatusDaemon: []
+2020-07-16 13:32:07,379 DEBUG StatusDaemon: []
+2020-07-16 13:33:06,383 DEBUG StatusDaemon: []
+2020-07-16 13:34:05,386 DEBUG StatusDaemon: []
+2020-07-16 13:35:04,390 DEBUG StatusDaemon: []
+2020-07-16 13:36:03,393 DEBUG StatusDaemon: []
+2020-07-16 13:37:02,397 DEBUG StatusDaemon: []
+2020-07-16 13:38:01,401 DEBUG StatusDaemon: []
+2020-07-16 13:39:00,404 DEBUG StatusDaemon: []
+2020-07-16 13:39:59,408 DEBUG StatusDaemon: []
+2020-07-16 13:40:58,413 DEBUG StatusDaemon: []
+2020-07-16 13:41:57,419 DEBUG StatusDaemon: []
+2020-07-16 13:42:56,423 DEBUG StatusDaemon: []
+2020-07-16 13:43:55,428 DEBUG StatusDaemon: []
+2020-07-16 13:44:54,432 DEBUG StatusDaemon: []
+2020-07-16 13:45:53,436 DEBUG StatusDaemon: []
+2020-07-16 13:46:52,441 DEBUG StatusDaemon: []
+2020-07-16 13:47:51,445 DEBUG StatusDaemon: []
+2020-07-16 13:48:50,449 DEBUG StatusDaemon: []
+2020-07-16 13:49:49,453 DEBUG StatusDaemon: []
+2020-07-16 13:50:48,457 DEBUG StatusDaemon: []
+2020-07-16 13:51:47,461 DEBUG StatusDaemon: []
+2020-07-16 13:52:46,465 DEBUG StatusDaemon: []
+2020-07-16 13:53:45,469 DEBUG StatusDaemon: []
+2020-07-16 13:54:44,473 DEBUG StatusDaemon: []
+2020-07-16 13:55:43,477 DEBUG StatusDaemon: []
+2020-07-16 13:56:42,481 DEBUG StatusDaemon: []
+2020-07-16 13:57:41,485 DEBUG StatusDaemon: []
+2020-07-16 13:58:40,488 DEBUG StatusDaemon: []
+2020-07-16 13:59:39,492 DEBUG StatusDaemon: []
+2020-07-16 14:00:38,496 DEBUG StatusDaemon: []
+2020-07-16 14:01:37,499 DEBUG StatusDaemon: []
+2020-07-16 14:02:36,503 DEBUG StatusDaemon: []
+2020-07-16 14:03:35,506 DEBUG StatusDaemon: []
+2020-07-16 14:04:34,510 DEBUG StatusDaemon: []
+2020-07-16 14:05:33,514 DEBUG StatusDaemon: []
+2020-07-16 14:06:32,517 DEBUG StatusDaemon: []
+2020-07-16 14:07:31,521 DEBUG StatusDaemon: []
+2020-07-16 14:08:30,525 DEBUG StatusDaemon: []
+2020-07-16 14:09:29,529 DEBUG StatusDaemon: []
+2020-07-16 14:10:28,532 DEBUG StatusDaemon: []
+2020-07-16 14:11:27,536 DEBUG StatusDaemon: []
+2020-07-16 14:12:26,540 DEBUG StatusDaemon: []
+2020-07-16 14:13:25,543 DEBUG StatusDaemon: []
+2020-07-16 14:14:24,547 DEBUG StatusDaemon: []
+2020-07-16 14:15:23,550 DEBUG StatusDaemon: []
+2020-07-16 14:16:22,554 DEBUG StatusDaemon: []
+2020-07-16 14:17:21,558 DEBUG StatusDaemon: []
+2020-07-16 14:18:20,561 DEBUG StatusDaemon: []
+2020-07-16 14:19:19,565 DEBUG StatusDaemon: []
+2020-07-16 14:20:18,568 DEBUG StatusDaemon: []
+2020-07-16 14:21:17,572 DEBUG StatusDaemon: []
+2020-07-16 14:22:16,575 DEBUG StatusDaemon: []
+2020-07-16 14:23:15,579 DEBUG StatusDaemon: []
+2020-07-16 14:24:14,583 DEBUG StatusDaemon: []
+2020-07-16 14:25:13,586 DEBUG StatusDaemon: []
+2020-07-16 14:26:12,590 DEBUG StatusDaemon: []
+2020-07-16 14:27:11,593 DEBUG StatusDaemon: []
+2020-07-16 14:28:10,597 DEBUG StatusDaemon: []
+2020-07-16 14:29:09,601 DEBUG StatusDaemon: []
+2020-07-16 14:30:08,604 DEBUG StatusDaemon: []
+2020-07-16 14:31:07,608 DEBUG StatusDaemon: []
+2020-07-16 14:32:06,611 DEBUG StatusDaemon: []
+2020-07-16 14:33:05,615 DEBUG StatusDaemon: []
+2020-07-16 14:34:04,619 DEBUG StatusDaemon: []
+2020-07-16 14:35:03,622 DEBUG StatusDaemon: []
+2020-07-16 14:36:02,626 DEBUG StatusDaemon: []
+2020-07-16 14:37:01,629 DEBUG StatusDaemon: []
+2020-07-16 14:38:00,633 DEBUG StatusDaemon: []
+2020-07-16 14:38:59,637 DEBUG StatusDaemon: []
+2020-07-16 14:39:58,640 DEBUG StatusDaemon: []
+2020-07-16 14:40:57,645 DEBUG StatusDaemon: []
+2020-07-16 14:41:56,651 DEBUG StatusDaemon: []
+2020-07-16 14:42:55,655 DEBUG StatusDaemon: []
+2020-07-16 14:43:54,660 DEBUG StatusDaemon: []
+2020-07-16 14:44:53,664 DEBUG StatusDaemon: []
+2020-07-16 14:45:52,669 DEBUG StatusDaemon: []
+2020-07-16 14:46:51,673 DEBUG StatusDaemon: []
+2020-07-16 14:47:50,678 DEBUG StatusDaemon: []
+2020-07-16 14:48:49,682 DEBUG StatusDaemon: []
+2020-07-16 14:49:48,686 DEBUG StatusDaemon: []
+2020-07-16 14:50:47,690 DEBUG StatusDaemon: []
+2020-07-16 14:51:46,694 DEBUG StatusDaemon: []
+2020-07-16 14:52:45,698 DEBUG StatusDaemon: []
+2020-07-16 14:53:44,702 DEBUG StatusDaemon: []
+2020-07-16 14:54:43,706 DEBUG StatusDaemon: []
+2020-07-16 14:55:42,710 DEBUG StatusDaemon: []
+2020-07-16 14:56:41,714 DEBUG StatusDaemon: []
+2020-07-16 14:57:40,717 DEBUG StatusDaemon: []
+2020-07-16 14:58:39,721 DEBUG StatusDaemon: []
+2020-07-16 14:59:38,725 DEBUG StatusDaemon: []
+2020-07-16 15:00:37,728 DEBUG StatusDaemon: []
+2020-07-16 15:01:36,732 DEBUG StatusDaemon: []
+2020-07-16 15:02:35,736 DEBUG StatusDaemon: []
+2020-07-16 15:03:34,739 DEBUG StatusDaemon: []
+2020-07-16 15:04:33,743 DEBUG StatusDaemon: []
+2020-07-16 15:05:32,747 DEBUG StatusDaemon: []
+2020-07-16 15:06:31,750 DEBUG StatusDaemon: []
+2020-07-16 15:07:30,754 DEBUG StatusDaemon: []
+2020-07-16 15:08:29,757 DEBUG StatusDaemon: []
+2020-07-16 15:09:28,761 DEBUG StatusDaemon: []
+2020-07-16 15:10:27,765 DEBUG StatusDaemon: []
+2020-07-16 15:11:26,768 DEBUG StatusDaemon: []
+2020-07-16 15:12:25,772 DEBUG StatusDaemon: []
+2020-07-16 15:13:24,776 DEBUG StatusDaemon: []
+2020-07-16 15:14:23,779 DEBUG StatusDaemon: []
+2020-07-16 15:15:22,783 DEBUG StatusDaemon: []
+2020-07-16 15:16:21,787 DEBUG StatusDaemon: []
+2020-07-16 15:17:20,791 DEBUG StatusDaemon: []
+2020-07-16 15:18:19,794 DEBUG StatusDaemon: []
+2020-07-16 15:19:18,798 DEBUG StatusDaemon: []
+2020-07-16 15:20:17,802 DEBUG StatusDaemon: []
+2020-07-16 15:21:16,805 DEBUG StatusDaemon: []
+2020-07-16 15:22:15,809 DEBUG StatusDaemon: []
+2020-07-16 15:23:14,813 DEBUG StatusDaemon: []
+2020-07-16 15:24:13,817 DEBUG StatusDaemon: []
+2020-07-16 15:25:12,820 DEBUG StatusDaemon: []
+2020-07-16 15:26:11,823 DEBUG StatusDaemon: []
+2020-07-16 15:27:10,827 DEBUG StatusDaemon: []
+2020-07-16 15:28:09,830 DEBUG StatusDaemon: []
+2020-07-16 15:29:08,834 DEBUG StatusDaemon: []
+2020-07-16 15:30:07,838 DEBUG StatusDaemon: []
+2020-07-16 15:31:06,841 DEBUG StatusDaemon: []
+2020-07-16 15:32:05,845 DEBUG StatusDaemon: []
+2020-07-16 15:33:04,848 DEBUG StatusDaemon: []
+2020-07-16 15:34:03,852 DEBUG StatusDaemon: []
+2020-07-16 15:35:02,856 DEBUG StatusDaemon: []
+2020-07-16 15:36:01,859 DEBUG StatusDaemon: []
+2020-07-16 15:37:00,864 DEBUG StatusDaemon: []
+2020-07-16 15:37:59,870 DEBUG StatusDaemon: []
+2020-07-16 15:38:58,875 DEBUG StatusDaemon: []
+2020-07-16 15:39:57,879 DEBUG StatusDaemon: []
+2020-07-16 15:40:56,884 DEBUG StatusDaemon: []
+2020-07-16 15:41:55,888 DEBUG StatusDaemon: []
+2020-07-16 15:42:54,892 DEBUG StatusDaemon: []
+2020-07-16 15:43:53,897 DEBUG StatusDaemon: []
+2020-07-16 15:44:52,901 DEBUG StatusDaemon: []
+2020-07-16 15:45:51,905 DEBUG StatusDaemon: []
+2020-07-16 15:46:50,909 DEBUG StatusDaemon: []
+2020-07-16 15:47:49,913 DEBUG StatusDaemon: []
+2020-07-16 15:48:48,917 DEBUG StatusDaemon: []
+2020-07-16 15:49:47,921 DEBUG StatusDaemon: []
+2020-07-16 15:50:46,925 DEBUG StatusDaemon: []
+2020-07-16 15:51:45,929 DEBUG StatusDaemon: []
+2020-07-16 15:52:44,933 DEBUG StatusDaemon: []
+2020-07-16 15:53:43,937 DEBUG StatusDaemon: []
+2020-07-16 15:54:42,940 DEBUG StatusDaemon: []
+2020-07-16 15:55:41,944 DEBUG StatusDaemon: []
+2020-07-16 15:56:40,946 DEBUG StatusDaemon: []
+2020-07-16 15:57:39,950 DEBUG StatusDaemon: []
+2020-07-16 15:58:38,961 DEBUG StatusDaemon: []
+2020-07-16 15:59:37,965 DEBUG StatusDaemon: []
+2020-07-16 16:00:36,969 DEBUG StatusDaemon: []
+2020-07-16 16:01:35,971 DEBUG StatusDaemon: []
+2020-07-16 16:02:34,974 DEBUG StatusDaemon: []
+2020-07-16 16:03:33,977 DEBUG StatusDaemon: []
+2020-07-16 16:04:32,980 DEBUG StatusDaemon: []
+2020-07-16 16:05:31,984 DEBUG StatusDaemon: []
+2020-07-16 16:06:30,988 DEBUG StatusDaemon: []
+2020-07-16 16:07:29,993 DEBUG StatusDaemon: []
+2020-07-16 16:08:28,997 DEBUG StatusDaemon: []
+2020-07-16 16:09:28,002 DEBUG StatusDaemon: []
+2020-07-16 16:10:27,006 DEBUG StatusDaemon: []
+2020-07-16 16:11:26,011 DEBUG StatusDaemon: []
+2020-07-16 16:12:25,015 DEBUG StatusDaemon: []
+2020-07-16 16:13:24,019 DEBUG StatusDaemon: []
+2020-07-16 16:14:23,026 DEBUG StatusDaemon: []
+2020-07-16 16:15:22,029 DEBUG StatusDaemon: []
+2020-07-16 16:16:21,047 DEBUG StatusDaemon: []
+2020-07-16 16:17:20,051 DEBUG StatusDaemon: []
+2020-07-16 16:18:19,055 DEBUG StatusDaemon: []
+2020-07-16 16:19:18,058 DEBUG StatusDaemon: []
+2020-07-16 16:20:17,062 DEBUG StatusDaemon: []
+2020-07-16 16:21:16,066 DEBUG StatusDaemon: []
+2020-07-16 16:22:15,070 DEBUG StatusDaemon: []
+2020-07-16 16:23:14,076 DEBUG StatusDaemon: []
+2020-07-16 16:24:13,077 DEBUG StatusDaemon: []
+2020-07-16 16:25:12,080 DEBUG StatusDaemon: []
+2020-07-16 16:26:11,091 DEBUG StatusDaemon: []
+2020-07-16 16:27:10,094 DEBUG StatusDaemon: []
+2020-07-16 16:28:09,097 DEBUG StatusDaemon: []
+2020-07-16 16:29:08,100 DEBUG StatusDaemon: []
+2020-07-16 16:30:07,103 DEBUG StatusDaemon: []
+2020-07-16 16:31:06,106 DEBUG StatusDaemon: []
+2020-07-16 16:32:05,109 DEBUG StatusDaemon: []
+2020-07-16 16:33:04,113 DEBUG StatusDaemon: []
+2020-07-16 16:34:03,116 DEBUG StatusDaemon: []
+2020-07-16 16:35:02,119 DEBUG StatusDaemon: []
+2020-07-16 16:36:01,123 DEBUG StatusDaemon: []
+2020-07-16 16:37:00,128 DEBUG StatusDaemon: []
+2020-07-16 16:37:59,134 DEBUG StatusDaemon: []
+2020-07-16 16:38:58,138 DEBUG StatusDaemon: []
+2020-07-16 16:39:57,143 DEBUG StatusDaemon: []
+2020-07-16 16:40:56,147 DEBUG StatusDaemon: []
+2020-07-16 16:41:55,151 DEBUG StatusDaemon: []
+2020-07-16 16:42:54,156 DEBUG StatusDaemon: []
+2020-07-16 16:43:53,160 DEBUG StatusDaemon: []
+2020-07-16 16:44:52,164 DEBUG StatusDaemon: []
+2020-07-16 16:45:51,168 DEBUG StatusDaemon: []
+2020-07-16 16:46:50,172 DEBUG StatusDaemon: []
+2020-07-16 16:47:49,176 DEBUG StatusDaemon: []
+2020-07-16 16:48:48,180 DEBUG StatusDaemon: []
+2020-07-16 16:49:47,184 DEBUG StatusDaemon: []
+2020-07-16 16:50:46,188 DEBUG StatusDaemon: []
+2020-07-16 16:51:45,191 DEBUG StatusDaemon: []
+2020-07-16 16:52:44,195 DEBUG StatusDaemon: []
+2020-07-16 16:53:43,199 DEBUG StatusDaemon: []
+2020-07-16 16:54:42,203 DEBUG StatusDaemon: []
+2020-07-16 16:55:41,206 DEBUG StatusDaemon: []
+2020-07-16 16:56:40,210 DEBUG StatusDaemon: []
+2020-07-16 16:57:39,214 DEBUG StatusDaemon: []
+2020-07-16 16:58:38,218 DEBUG StatusDaemon: []
+2020-07-16 16:59:37,221 DEBUG StatusDaemon: []
+2020-07-16 17:00:36,225 DEBUG StatusDaemon: []
+2020-07-16 17:01:35,229 DEBUG StatusDaemon: []
+2020-07-16 17:02:34,232 DEBUG StatusDaemon: []
+2020-07-16 17:03:33,235 DEBUG StatusDaemon: []
+2020-07-16 17:04:32,239 DEBUG StatusDaemon: []
+2020-07-16 17:05:31,250 DEBUG StatusDaemon: []
+2020-07-16 17:06:30,254 DEBUG StatusDaemon: []
+2020-07-16 17:07:29,259 DEBUG StatusDaemon: []
+2020-07-16 17:08:28,263 DEBUG StatusDaemon: []
+2020-07-16 17:09:27,267 DEBUG StatusDaemon: []
+2020-07-16 17:10:26,271 DEBUG StatusDaemon: []
+2020-07-16 17:11:25,275 DEBUG StatusDaemon: []
+2020-07-16 17:12:24,279 DEBUG StatusDaemon: []
+2020-07-16 17:13:23,284 DEBUG StatusDaemon: []
+2020-07-16 17:14:22,288 DEBUG StatusDaemon: []
+2020-07-16 17:15:21,292 DEBUG StatusDaemon: []
+2020-07-16 17:16:20,296 DEBUG StatusDaemon: []
+2020-07-16 17:17:19,300 DEBUG StatusDaemon: []
+2020-07-16 17:18:18,304 DEBUG StatusDaemon: []
+2020-07-16 17:19:17,307 DEBUG StatusDaemon: []
+2020-07-16 17:20:16,313 DEBUG StatusDaemon: []
+2020-07-16 17:21:15,316 DEBUG StatusDaemon: []
+2020-07-16 17:22:14,320 DEBUG StatusDaemon: []
+2020-07-16 17:23:13,324 DEBUG StatusDaemon: []
+2020-07-16 17:24:12,327 DEBUG StatusDaemon: []
+2020-07-16 17:25:11,331 DEBUG StatusDaemon: []
+2020-07-16 17:26:10,335 DEBUG StatusDaemon: []
+2020-07-16 17:27:09,338 DEBUG StatusDaemon: []
+2020-07-16 17:28:08,352 DEBUG StatusDaemon: []
+2020-07-16 17:29:07,357 DEBUG StatusDaemon: []
+2020-07-16 17:30:06,361 DEBUG StatusDaemon: []
+2020-07-16 17:31:05,364 DEBUG StatusDaemon: []
+2020-07-16 17:32:04,368 DEBUG StatusDaemon: []
+2020-07-16 17:33:03,372 DEBUG StatusDaemon: []
+2020-07-16 17:34:02,376 DEBUG StatusDaemon: []
+2020-07-16 17:35:01,380 DEBUG StatusDaemon: []
+2020-07-16 17:36:00,384 DEBUG StatusDaemon: []
+2020-07-16 17:36:59,387 DEBUG StatusDaemon: []
+2020-07-16 17:37:58,391 DEBUG StatusDaemon: []
+2020-07-16 17:38:57,394 DEBUG StatusDaemon: []
+2020-07-16 17:39:56,398 DEBUG StatusDaemon: []
+2020-07-16 17:40:55,402 DEBUG StatusDaemon: []
+2020-07-16 17:41:54,416 DEBUG StatusDaemon: []
+2020-07-16 17:42:53,420 DEBUG StatusDaemon: []
+2020-07-16 17:43:52,423 DEBUG StatusDaemon: []
+2020-07-16 17:44:51,426 DEBUG StatusDaemon: []
+2020-07-16 17:45:50,436 DEBUG StatusDaemon: []
+2020-07-16 17:46:49,439 DEBUG StatusDaemon: []
+2020-07-16 17:47:48,444 DEBUG StatusDaemon: []
+2020-07-16 17:48:47,448 DEBUG StatusDaemon: []
+2020-07-16 17:49:46,452 DEBUG StatusDaemon: []
+2020-07-16 17:50:45,455 DEBUG StatusDaemon: []
+2020-07-16 17:51:44,459 DEBUG StatusDaemon: []
+2020-07-16 17:52:43,462 DEBUG StatusDaemon: []
+2020-07-16 17:53:42,466 DEBUG StatusDaemon: []
+2020-07-16 17:54:41,469 DEBUG StatusDaemon: []
+2020-07-16 17:55:40,473 DEBUG StatusDaemon: []
+2020-07-16 17:56:39,477 DEBUG StatusDaemon: []
+2020-07-16 17:57:38,482 DEBUG StatusDaemon: []
+2020-07-16 17:58:37,486 DEBUG StatusDaemon: []
+2020-07-16 17:59:36,492 DEBUG StatusDaemon: []
+2020-07-16 18:00:35,496 DEBUG StatusDaemon: []
+2020-07-16 18:01:34,501 DEBUG StatusDaemon: []
+2020-07-16 18:02:33,505 DEBUG StatusDaemon: []
+2020-07-16 18:03:32,510 DEBUG StatusDaemon: []
+2020-07-16 18:04:31,515 DEBUG StatusDaemon: []
+2020-07-16 18:05:30,519 DEBUG StatusDaemon: []
+2020-07-16 18:06:29,523 DEBUG StatusDaemon: []
+2020-07-16 18:07:28,527 DEBUG StatusDaemon: []
+2020-07-16 18:08:27,531 DEBUG StatusDaemon: []
+2020-07-16 18:09:26,535 DEBUG StatusDaemon: []
+2020-07-16 18:10:25,538 DEBUG StatusDaemon: []
+2020-07-16 18:11:24,542 DEBUG StatusDaemon: []
+2020-07-16 18:12:23,546 DEBUG StatusDaemon: []
+2020-07-16 18:13:22,549 DEBUG StatusDaemon: []
+2020-07-16 18:14:21,553 DEBUG StatusDaemon: []
+2020-07-16 18:15:20,558 DEBUG StatusDaemon: []
+2020-07-16 18:16:19,562 DEBUG StatusDaemon: []
+2020-07-16 18:17:18,580 DEBUG StatusDaemon: []
+2020-07-16 18:18:17,585 DEBUG StatusDaemon: []
+2020-07-16 18:19:16,588 DEBUG StatusDaemon: []
+2020-07-16 18:20:15,592 DEBUG StatusDaemon: []
+2020-07-16 18:21:14,595 DEBUG StatusDaemon: []
+2020-07-16 18:22:13,599 DEBUG StatusDaemon: []
+2020-07-16 18:23:12,603 DEBUG StatusDaemon: []
+2020-07-16 18:24:11,606 DEBUG StatusDaemon: []
+2020-07-16 18:25:10,614 DEBUG StatusDaemon: []
+2020-07-16 18:26:09,621 DEBUG StatusDaemon: []
+2020-07-16 18:27:08,625 DEBUG StatusDaemon: []
+2020-07-16 18:28:07,634 DEBUG StatusDaemon: []
+2020-07-16 18:29:06,637 DEBUG StatusDaemon: []
+2020-08-06 09:08:07,613 INFO LoggingServer started
+2020-08-06 09:08:07,628 INFO Agent: Initializing Agent
+2020-08-06 09:08:07,628 INFO Agent: Error during the initialization of TemplateResolver: Bad URL: HTTP Error 404: Not FoundAwaiting first connection to complete the initialization
+2020-08-06 09:08:07,628 INFO TaskServer: Created instance of TaskServer
+2020-08-06 09:08:07,628 INFO StatusDaemon: Created instance of StatusDaemon
+2020-08-06 09:08:07,628 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			INFO
+	scheduler:				None
+
+2020-08-06 09:08:07,628 INFO Agent: Started Agent.TaskServerProcess
+2020-08-06 09:08:07,628 INFO Agent: Started Agent.StatusDaemonProcess
+2020-08-06 09:08:07,878 INFO TaskServer: Starting TaskServer
+2020-08-06 09:08:07,878 INFO StatusDaemon: Starting StatusDaemon
+2020-08-17 15:16:35,674 INFO LoggingServer started
+2020-08-17 15:16:35,752 INFO Agent: Initializing Agent
+2020-08-17 15:16:35,752 INFO Agent: Error during the initialization of TemplateResolver: Bad URL: HTTP Error 404: Not FoundAwaiting first connection to complete the initialization
+2020-08-17 15:16:35,752 INFO TaskServer: Created instance of TaskServer
+2020-08-17 15:16:35,752 INFO StatusDaemon: Created instance of StatusDaemon
+2020-08-17 15:16:35,752 INFO Agent: Created Agent instance with the following configuration:
+	working directory:		D:\ckd-sched\ckd-client\agent_work_dir
+	log files directory:	D:\ckd-sched\ckd-client\agent_log_dir
+	server address:			http://130.100.92.121
+	socket's host and port:	('0.0.0.0', 9999)
+	logging level:			INFO
+	scheduler:				None
+
+2020-08-17 15:16:35,752 INFO Agent: Started Agent.TaskServerProcess
+2020-08-17 15:16:35,752 INFO Agent: Started Agent.StatusDaemonProcess
+2020-08-17 15:16:35,877 INFO TaskServer: Starting TaskServer
+2020-08-17 15:16:36,440 INFO StatusDaemon: Starting StatusDaemon

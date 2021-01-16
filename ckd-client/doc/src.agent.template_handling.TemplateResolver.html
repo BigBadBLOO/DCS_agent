@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module src.agent.template_handling.TemplateResolver</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="src.html"><font color="#ffffff">src</font></a>.<a href="src.agent.html"><font color="#ffffff">agent</font></a>.<a href="src.agent.template_handling.html"><font color="#ffffff">template_handling</font></a>.TemplateResolver</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:d%3A%5Cckd-sched%5Cckd-client%5Csrc%5Cagent%5Ctemplate_handling%5Ctemplateresolver.py">d:\ckd-sched\ckd-client\src\agent\template_handling\templateresolver.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="src.agent.template_handling.TemplateResolver.html#TemplateResolver">TemplateResolver</a>
+</font></dt><dt><font face="helvetica, arial"><a href="src.agent.template_handling.TemplateResolver.html#TemplateResolverBuilder">TemplateResolverBuilder</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="TemplateResolver">class <strong>TemplateResolver</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Class&nbsp;that&nbsp;handles&nbsp;the&nbsp;substitution&nbsp;template&nbsp;params&nbsp;for&nbsp;the&nbsp;real&nbsp;values.<br>
+&nbsp;<br>
+Manages&nbsp;both&nbsp;Scheduler&nbsp;command&nbsp;templates&nbsp;and&nbsp;Scheduler&nbsp;output&nbsp;template&nbsp;for&nbsp;the&nbsp;HPC&nbsp;statistics.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="TemplateResolver-__init__"><strong>__init__</strong></a>(self, workdir:str, scheduler:src.utils.data_types.Scheduler.Scheduler, logger_queue:&lt;bound method BaseContext.Queue of &lt;multiprocessing.context.DefaultContext object at 0x01447050&gt;&gt;)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="TemplateResolver-get_cancel_for_task"><strong>get_cancel_for_task</strong></a>(self, task:src.utils.data_types.Task.Task)</dt><dd><tt>Get&nbsp;'cancel'&nbsp;command&nbsp;with&nbsp;real&nbsp;values&nbsp;instead&nbsp;of&nbsp;template&nbsp;parameters<br>
+Also&nbsp;saves&nbsp;task&nbsp;passport<br>
+&nbsp;<br>
+:param&nbsp;task:&nbsp;related&nbsp;task<br>
+:return:&nbsp;'cancel'&nbsp;command&nbsp;with&nbsp;real&nbsp;values</tt></dd></dl>
+
+<dl><dt><a name="TemplateResolver-get_hpc_stats_cmd"><strong>get_hpc_stats_cmd</strong></a>(self)</dt><dd><tt>Return&nbsp;Scheduler&nbsp;command&nbsp;that&nbsp;returns&nbsp;HPC&nbsp;statistics<br>
+:return:&nbsp;Scheduler&nbsp;command&nbsp;that&nbsp;returns&nbsp;HPC&nbsp;statistics</tt></dd></dl>
+
+<dl><dt><a name="TemplateResolver-get_hpc_stats_pattern"><strong>get_hpc_stats_pattern</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="TemplateResolver-get_passport"><strong>get_passport</strong></a>(self, task:src.utils.data_types.Task.Task)</dt></dl>
+
+<dl><dt><a name="TemplateResolver-get_run_for_task"><strong>get_run_for_task</strong></a>(self, task:src.utils.data_types.Task.Task)</dt><dd><tt>Get&nbsp;'run'&nbsp;command&nbsp;with&nbsp;real&nbsp;values&nbsp;instead&nbsp;of&nbsp;template&nbsp;parameters<br>
+Also&nbsp;saves&nbsp;task&nbsp;passport<br>
+&nbsp;<br>
+:param&nbsp;task:&nbsp;related&nbsp;task<br>
+:return:&nbsp;'run'&nbsp;command&nbsp;with&nbsp;real&nbsp;values</tt></dd></dl>
+
+<dl><dt><a name="TemplateResolver-get_sched"><strong>get_sched</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="TemplateResolver-get_stats_for_task"><strong>get_stats_for_task</strong></a>(self, task:src.utils.data_types.Task.Task)</dt><dd><tt>Get&nbsp;'stats'&nbsp;command&nbsp;with&nbsp;real&nbsp;values&nbsp;instead&nbsp;of&nbsp;template&nbsp;parameters<br>
+Also&nbsp;saves&nbsp;task&nbsp;passport<br>
+&nbsp;<br>
+:param&nbsp;task:&nbsp;related&nbsp;task<br>
+:return:&nbsp;'stats'&nbsp;command&nbsp;with&nbsp;real&nbsp;values</tt></dd></dl>
+
+<dl><dt><a name="TemplateResolver-get_templ_sign"><strong>get_templ_sign</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="TemplateResolver-resolve_jobid_from_output"><strong>resolve_jobid_from_output</strong></a>(self, cmd_output:str)</dt></dl>
+
+<dl><dt><a name="TemplateResolver-sched_uses_desc"><strong>sched_uses_desc</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="TemplateResolverBuilder">class <strong>TemplateResolverBuilder</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Static methods defined here:<br>
+<dl><dt><a name="TemplateResolverBuilder-build"><strong>build</strong></a>(workdir, scheds_list, logger_queue:&lt;bound method BaseContext.Queue of &lt;multiprocessing.context.DefaultContext object at 0x01447050&gt;&gt;)</dt><dd><tt>Return&nbsp;<a href="#TemplateResolver">TemplateResolver</a>&nbsp;with&nbsp;Scheduler&nbsp;model,&nbsp;appropriate&nbsp;for&nbsp;the&nbsp;system<br>
+&nbsp;<br>
+:param&nbsp;workdir:&nbsp;path&nbsp;to&nbsp;working&nbsp;directory<br>
+:param&nbsp;scheds_list:&nbsp;known&nbsp;Scheduler&nbsp;list<br>
+:param&nbsp;logger_queue:&nbsp;class&nbsp;instance&nbsp;that&nbsp;should&nbsp;be&nbsp;used&nbsp;for&nbsp;logging<br>
+:return:&nbsp;<a href="#TemplateResolver">TemplateResolver</a>&nbsp;with&nbsp;appropriate&nbsp;Scheduler</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module src.utils.Executor</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="src.html"><font color="#ffffff">src</font></a>.<a href="src.utils.html"><font color="#ffffff">utils</font></a>.Executor</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:d%3A%5Cckd-sched%5Cckd-client%5Csrc%5Cutils%5Cexecutor.py">d:\ckd-sched\ckd-client\src\utils\executor.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="asyncio.html">asyncio</a><br>
+</td><td width="25%" valign=top><a href="subprocess.html">subprocess</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="src.utils.Executor.html#Executor">Executor</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Executor">class <strong>Executor</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Class methods defined here:<br>
+<dl><dt><a name="Executor-async_exec_cmds_with_wrapping"><strong>async_exec_cmds_with_wrapping</strong></a>(commands:list, dir_to_use:str)<font color="#909090"><font face="helvetica, arial"> from <a href="src.utils.Singleton.html#Singleton">src.utils.Singleton.Singleton</a></font></font></dt></dl>
+
+<dl><dt><a name="Executor-async_exec_commands_in_one_shell"><strong>async_exec_commands_in_one_shell</strong></a>(commands:list, separator:str)<font color="#909090"><font face="helvetica, arial"> from <a href="src.utils.Singleton.html#Singleton">src.utils.Singleton.Singleton</a></font></font></dt></dl>
+
+<dl><dt><a name="Executor-async_exec_shell_command"><strong>async_exec_shell_command</strong></a>(cmd:str)<font color="#909090"><font face="helvetica, arial"> from <a href="src.utils.Singleton.html#Singleton">src.utils.Singleton.Singleton</a></font></font></dt><dd><tt>Asynchronously&nbsp;execute&nbsp;shell&nbsp;command<br>
+&nbsp;<br>
+:param&nbsp;cmd:&nbsp;shell&nbsp;command&nbsp;to&nbsp;execute<br>
+:return:&nbsp;execution&nbsp;result</tt></dd></dl>
+
+<dl><dt><a name="Executor-async_execution"><strong>async_execution</strong></a>(func, *args)<font color="#909090"><font face="helvetica, arial"> from <a href="src.utils.Singleton.html#Singleton">src.utils.Singleton.Singleton</a></font></font></dt><dd><tt>Function&nbsp;to&nbsp;make&nbsp;sync&nbsp;functions&nbsp;execute&nbsp;asynchronously<br>
+&nbsp;<br>
+:param&nbsp;func:&nbsp;callable&nbsp;that&nbsp;requires&nbsp;asynchronous&nbsp;execution<br>
+:param&nbsp;args:&nbsp;arguments&nbsp;to&nbsp;pass<br>
+:return:&nbsp;the&nbsp;result&nbsp;of&nbsp;the&nbsp;func(args)&nbsp;async&nbsp;execution</tt></dd></dl>
+
+<dl><dt><a name="Executor-wrap_async_call"><strong>wrap_async_call</strong></a>(func, *args)<font color="#909090"><font face="helvetica, arial"> from <a href="src.utils.Singleton.html#Singleton">src.utils.Singleton.Singleton</a></font></font></dt><dd><tt>Asynchronously&nbsp;execute&nbsp;function&nbsp;in&nbsp;asyncio&nbsp;loop<br>
+&nbsp;<br>
+:param&nbsp;func:&nbsp;function&nbsp;to&nbsp;execute<br>
+:param&nbsp;args:&nbsp;arguments&nbsp;of&nbsp;the&nbsp;desired&nbsp;func&nbsp;execution<br>
+:return:&nbsp;result&nbsp;of&nbsp;the&nbsp;func(args)&nbsp;expression</tt></dd></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="Executor-execute_shell_command"><strong>execute_shell_command</strong></a>(cmd:str) -&gt; str</dt><dd><tt>Make&nbsp;OS&nbsp;execute&nbsp;command<br>
+&nbsp;<br>
+:param&nbsp;cmd:&nbsp;shell&nbsp;command&nbsp;to&nbsp;execute<br>
+:return:&nbsp;shell&nbsp;command&nbsp;output</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>

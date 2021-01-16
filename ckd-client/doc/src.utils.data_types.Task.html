@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module src.utils.data_types.Task</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="src.html"><font color="#ffffff">src</font></a>.<a href="src.utils.html"><font color="#ffffff">utils</font></a>.<a href="src.utils.data_types.html"><font color="#ffffff">data_types</font></a>.Task</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:d%3A%5Cckd-sched%5Cckd-client%5Csrc%5Cutils%5Cdata_types%5Ctask.py">d:\ckd-sched\ckd-client\src\utils\data_types\task.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="itertools.html">itertools</a><br>
+</td><td width="25%" valign=top><a href="json.html">json</a><br>
+</td><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="src.utils.data_types.Task.html#Task">Task</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Task">class <strong>Task</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>Holds&nbsp;all&nbsp;of&nbsp;the&nbsp;required&nbsp;information&nbsp;about&nbsp;incoming&nbsp;task&nbsp;from&nbsp;web&nbsp;application<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Task-__init__"><strong>__init__</strong></a>(self, dct:dict)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="Task-__str__"><strong>__str__</strong></a>(self)</dt><dd><tt>Return&nbsp;str(self).</tt></dd></dl>
+
+<dl><dt><a name="Task-exists"><strong>exists</strong></a>(self, workdir:str)</dt></dl>
+
+<dl><dt><a name="Task-get_bin_name"><strong>get_bin_name</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_compiler"><strong>get_compiler</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_dir_name_for_task"><strong>get_dir_name_for_task</strong></a>(self, workdir:str)</dt><dd><tt>Get&nbsp;an&nbsp;absolute&nbsp;path&nbsp;to&nbsp;the&nbsp;directory&nbsp;with&nbsp;task-related&nbsp;files<br>
+&nbsp;<br>
+:param&nbsp;workdir:&nbsp;caller's&nbsp;working&nbsp;directory<br>
+:return:&nbsp;path&nbsp;to&nbsp;task&nbsp;directory</tt></dd></dl>
+
+<dl><dt><a name="Task-get_error"><strong>get_error</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_filename"><strong>get_filename</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_filesize"><strong>get_filesize</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_jobid"><strong>get_jobid</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_log_name"><strong>get_log_name</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_memory"><strong>get_memory</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_name"><strong>get_name</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_passport_name"><strong>get_passport_name</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_procnum"><strong>get_procnum</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_status"><strong>get_status</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_str_status"><strong>get_str_status</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_user"><strong>get_user</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-get_walltime"><strong>get_walltime</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-is_file_archive"><strong>is_file_archive</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-path_to_task_bin"><strong>path_to_task_bin</strong></a>(self, workdir:str)</dt></dl>
+
+<dl><dt><a name="Task-path_to_task_etc"><strong>path_to_task_etc</strong></a>(self, workdir:str)</dt></dl>
+
+<dl><dt><a name="Task-path_to_task_src"><strong>path_to_task_src</strong></a>(self, workdir:str)</dt></dl>
+
+<dl><dt><a name="Task-set_bin_name"><strong>set_bin_name</strong></a>(self, bin_name:str)</dt></dl>
+
+<dl><dt><a name="Task-set_cmake_usage"><strong>set_cmake_usage</strong></a>(self, should_use:bool)</dt></dl>
+
+<dl><dt><a name="Task-set_error"><strong>set_error</strong></a>(self, error:Exception)</dt></dl>
+
+<dl><dt><a name="Task-set_filename"><strong>set_filename</strong></a>(self, filename:str)</dt></dl>
+
+<dl><dt><a name="Task-set_filesize"><strong>set_filesize</strong></a>(self, size:int)</dt></dl>
+
+<dl><dt><a name="Task-set_jobid"><strong>set_jobid</strong></a>(self, jobid:str)</dt></dl>
+
+<dl><dt><a name="Task-set_log_name"><strong>set_log_name</strong></a>(self, log_name:str)</dt></dl>
+
+<dl><dt><a name="Task-set_memory"><strong>set_memory</strong></a>(self, mem:int)</dt></dl>
+
+<dl><dt><a name="Task-set_name"><strong>set_name</strong></a>(self, name:str)</dt></dl>
+
+<dl><dt><a name="Task-set_passport_name"><strong>set_passport_name</strong></a>(self, descname:str)</dt></dl>
+
+<dl><dt><a name="Task-set_path"><strong>set_path</strong></a>(self, path:str)</dt></dl>
+
+<dl><dt><a name="Task-set_procnum"><strong>set_procnum</strong></a>(self, num:int)</dt></dl>
+
+<dl><dt><a name="Task-set_status"><strong>set_status</strong></a>(self, status:src.utils.Enums.TaskStatus)</dt></dl>
+
+<dl><dt><a name="Task-to_dict"><strong>to_dict</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Task-to_json"><strong>to_json</strong></a>(self, indent=0)</dt></dl>
+
+<dl><dt><a name="Task-uses_cmake"><strong>uses_cmake</strong></a>(self)</dt></dl>
+
+<hr>
+Static methods defined here:<br>
+<dl><dt><a name="Task-from_json"><strong>from_json</strong></a>(json_string:str)</dt></dl>
+
+<dl><dt><a name="Task-get_empty_task"><strong>get_empty_task</strong></a>()</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>

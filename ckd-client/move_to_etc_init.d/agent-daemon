@@ -1,0 +1,62 @@
+#!/bin/sh
+
+### BEGIN INIT INFO
+# Provides:          agent-daemon
+# Required-Start:    $remote_fs $syslog $time
+# Required-Stop:     $remote_fs $syslog $time
+# Should-Start:      $network $named slapd autofs ypbind nscd nslcd winbind
+# Should-Stop:       $network $named slapd autofs ypbind nscd nslcd winbind
+# Default-Start:     2 3 4 5
+# Default-Stop:
+# Short-Description: Agent for CKD web application to schedule tasks computation on the HPC
+### END INIT INFO
+
+PATH=/bin:/usr/bin:/sbin:/usr/sbin
+DAEMON="/usr/share/ckd-agent/agent_daemon.sh"
+PIDFILE="/var/run/agent_daemon.pid"
+CONFIG="/etc/default/agent-daemon"
+NAME="ckd-agent"
+
+test -x $DAEMON || exit 0
+
+. /lib/lsb/init-functions
+
+case "$1" in
+    start)
+        log_daemon_msg "Staring CKD Agent" $NAME
+
+        pid=$( pidofproc -p $PIDFILE $DAEMON )
+        if [ -n "$pid" ]
+        then
+            log_daemon_msg "Already running" $NAME
+            log_end_msg 0
+            exit 0
+        fi
+
+        start_daemon -p $PIDFILE $DAEMON $CONFIG
+        log_end_msg $?
+        ;;
+    stop)
+        log_daemon_msg "Stopping CKD Agent" $NAME
+
+        killproc -p $PIDFILE $DAEMON
+        RETVAL=$?
+        [ $RETVAL -eq 0 ] && [ -e "$PIDFILE" ] && rm -f $PIDFILE
+	    PID=`ps x | grep feed | head -1 | awk '{print $1}'`
+        kill -9 $PID
+        log_end_msg $?
+        ;;
+    force-reload|restart)
+        $0 stop
+        $0 start
+        ;;
+    status)
+        status_of_proc -p $PIDFILE $DAEMON agent_daemon_ctl && exit 0 || exit $?
+        ;;
+    *)
+        echo "Usage: /etc/init.d/agent-daemon {start|stop|restart|force-reload|status}"
+        exit 1
+        ;;
+esac
+
+exit 0

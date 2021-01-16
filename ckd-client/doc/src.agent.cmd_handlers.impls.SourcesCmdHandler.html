@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module src.agent.cmd_handlers.impls.SourcesCmdHandler</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong><a href="src.html"><font color="#ffffff">src</font></a>.<a href="src.agent.html"><font color="#ffffff">agent</font></a>.<a href="src.agent.cmd_handlers.html"><font color="#ffffff">cmd_handlers</font></a>.<a href="src.agent.cmd_handlers.impls.html"><font color="#ffffff">impls</font></a>.SourcesCmdHandler</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:d%3A%5Cckd-sched%5Cckd-client%5Csrc%5Cagent%5Ccmd_handlers%5Cimpls%5Csourcescmdhandler.py">d:\ckd-sched\ckd-client\src\agent\cmd_handlers\impls\sourcescmdhandler.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="src.agent.cmd_handlers.base_classes.SendingCmdHandler.html#SendingCmdHandler">src.agent.cmd_handlers.base_classes.SendingCmdHandler.SendingCmdHandler</a>(<a href="src.agent.cmd_handlers.base_classes.BaseCmdHandler.html#BaseCmdHandler">src.agent.cmd_handlers.base_classes.BaseCmdHandler.BaseCmdHandler</a>)
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="src.agent.cmd_handlers.impls.SourcesCmdHandler.html#SourcesCmdHandler">SourcesCmdHandler</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="SourcesCmdHandler">class <strong>SourcesCmdHandler</strong></a>(<a href="src.agent.cmd_handlers.base_classes.SendingCmdHandler.html#SendingCmdHandler">src.agent.cmd_handlers.base_classes.SendingCmdHandler.SendingCmdHandler</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt>Method resolution order:</dt>
+<dd><a href="src.agent.cmd_handlers.impls.SourcesCmdHandler.html#SourcesCmdHandler">SourcesCmdHandler</a></dd>
+<dd><a href="src.agent.cmd_handlers.base_classes.SendingCmdHandler.html#SendingCmdHandler">src.agent.cmd_handlers.base_classes.SendingCmdHandler.SendingCmdHandler</a></dd>
+<dd><a href="src.agent.cmd_handlers.base_classes.BaseCmdHandler.html#BaseCmdHandler">src.agent.cmd_handlers.base_classes.BaseCmdHandler.BaseCmdHandler</a></dd>
+<dd><a href="src.agent.cmd_handlers.AbstractCmdHandler.html#AbstractCmdHandler">src.agent.cmd_handlers.AbstractCmdHandler.AbstractCmdHandler</a></dd>
+<dd><a href="builtins.html#object">builtins.object</a></dd>
+</dl>
+<hr>
+Methods defined here:<br>
+<dl><dt><a name="SourcesCmdHandler-__init__"><strong>__init__</strong></a>(self, streams_handler:src.agent.StreamsHandler.StreamsHandler, io_handler:src.utils.io.IOHandler.IOHandler, logger_queue:&lt;bound method BaseContext.Queue of &lt;multiprocessing.context.DefaultContext object at 0x01447050&gt;&gt;)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="SourcesCmdHandler-handle"><strong>handle</strong></a>(self, task:src.utils.data_types.Task.Task, args:list)</dt><dd><tt>Main&nbsp;handling&nbsp;method.&nbsp;Must&nbsp;be&nbsp;overridden&nbsp;in&nbsp;the&nbsp;AbstractCmdHandler's&nbsp;subclasses&nbsp;that&nbsp;do&nbsp;actual&nbsp;command&nbsp;handling.<br>
+&nbsp;<br>
+:param&nbsp;task:&nbsp;task&nbsp;to&nbsp;handle<br>
+:param&nbsp;args:&nbsp;additional&nbsp;arguments<br>
+:return:&nbsp;updated&nbsp;task</tt></dd></dl>
+
+<hr>
+Methods inherited from <a href="src.agent.cmd_handlers.base_classes.SendingCmdHandler.html#SendingCmdHandler">src.agent.cmd_handlers.base_classes.SendingCmdHandler.SendingCmdHandler</a>:<br>
+<dl><dt><a name="SourcesCmdHandler-send_files"><strong>send_files</strong></a>(self, results_file:str='.')</dt><dd><tt>Send&nbsp;the&nbsp;archive&nbsp;with&nbsp;task&nbsp;execution&nbsp;results&nbsp;to&nbsp;the&nbsp;CKD&nbsp;web&nbsp;application<br>
+&nbsp;<br>
+:param&nbsp;results_file:&nbsp;path&nbsp;to&nbsp;the&nbsp;results&nbsp;file<br>
+:return:&nbsp;nothing</tt></dd></dl>
+
+<hr>
+Class methods inherited from <a href="src.agent.cmd_handlers.base_classes.BaseCmdHandler.html#BaseCmdHandler">src.agent.cmd_handlers.base_classes.BaseCmdHandler.BaseCmdHandler</a>:<br>
+<dl><dt><a name="SourcesCmdHandler-exec_shell_command"><strong>exec_shell_command</strong></a>(command, args=None)<font color="#909090"><font face="helvetica, arial"> from <a href="builtins.html#type">builtins.type</a></font></font></dt><dd><tt>Form&nbsp;and&nbsp;execute&nbsp;shell&nbsp;command<br>
+&nbsp;<br>
+:param&nbsp;command:&nbsp;command&nbsp;to&nbsp;execute<br>
+:param&nbsp;args:&nbsp;additional&nbsp;arguments<br>
+:return:&nbsp;command&nbsp;output</tt></dd></dl>
+
+<hr>
+Data and other attributes inherited from <a href="src.agent.cmd_handlers.base_classes.BaseCmdHandler.html#BaseCmdHandler">src.agent.cmd_handlers.base_classes.BaseCmdHandler.BaseCmdHandler</a>:<br>
+<dl><dt><strong>executor</strong> = &lt;src.utils.Executor.Executor object&gt;</dl>
+
+<hr>
+Data descriptors inherited from <a href="src.agent.cmd_handlers.AbstractCmdHandler.html#AbstractCmdHandler">src.agent.cmd_handlers.AbstractCmdHandler.AbstractCmdHandler</a>:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>

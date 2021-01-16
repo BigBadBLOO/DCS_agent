@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Agent</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Agent</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:d%3A%5Cckd-sched%5Cckd-client%5Cagent.py">d:\ckd-sched\ckd-client\agent.py</a></font></td></tr></table>
+    <p></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="os.html">os</a><br>
+</td><td width="25%" valign=top><a href="sys.html">sys</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="Agent.html#Agent">Agent</a>
+</font></dt><dt><font face="helvetica, arial"><a href="Agent.html#AgentBuilder">AgentBuilder</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Agent">class <strong>Agent</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>HPC&nbsp;agent&nbsp;for&nbsp;the&nbsp;CKD&nbsp;web&nbsp;application.<br>
+&nbsp;<br>
+Consists&nbsp;of:<br>
+&nbsp;TaskServer&nbsp;responsible&nbsp;for&nbsp;handling&nbsp;task&nbsp;related&nbsp;activities&nbsp;with&nbsp;update&nbsp;of&nbsp;HPC&nbsp;statistics&nbsp;when&nbsp;it's&nbsp;required;<br>
+&nbsp;<br>
+&nbsp;StatusDaemon&nbsp;responsible&nbsp;for&nbsp;fixed&nbsp;interval&nbsp;updates&nbsp;of&nbsp;the&nbsp;HPC&nbsp;statistics.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Agent-__init__"><strong>__init__</strong></a>(self, workdir, logdir, server_addr, host_n_port, log_level, log_size_in_kbs, log_versions)</dt><dd><tt>Initialize&nbsp;self.&nbsp;&nbsp;See&nbsp;help(type(self))&nbsp;for&nbsp;accurate&nbsp;signature.</tt></dd></dl>
+
+<dl><dt><a name="Agent-shutdown"><strong>shutdown</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Agent-start"><strong>start</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<hr>
+Data and other attributes defined here:<br>
+<dl><dt><strong>log_file_name</strong> = 'Agent.log'</dl>
+
+<dl><dt><strong>logging_server_process_name</strong> = 'Agent.LoggingServerProcess'</dl>
+
+<dl><dt><strong>status_daemon_process_name</strong> = 'Agent.StatusDaemonProcess'</dl>
+
+<dl><dt><strong>task_server_process_name</strong> = 'Agent.TaskServerProcess'</dl>
+
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="AgentBuilder">class <strong>AgentBuilder</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr><td bgcolor="#ffc8d8"><tt>&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%">Static methods defined here:<br>
+<dl><dt><a name="AgentBuilder-build"><strong>build</strong></a>(config_file, args)</dt><dd><tt>Create&nbsp;<a href="#Agent">Agent</a>&nbsp;instance&nbsp;using&nbsp;the&nbsp;incoming&nbsp;configuration&nbsp;file&nbsp;and&nbsp;additional&nbsp;CLI&nbsp;params<br>
+&nbsp;<br>
+:param&nbsp;config_file:&nbsp;path&nbsp;to&nbsp;configuration&nbsp;file<br>
+:param&nbsp;args:&nbsp;additional&nbsp;arguments&nbsp;passed&nbsp;through&nbsp;CLI<br>
+:return:&nbsp;configured&nbsp;<a href="#Agent">Agent</a>&nbsp;instance</tt></dd></dl>
+
+<dl><dt><a name="AgentBuilder-print_help"><strong>print_help</strong></a>()</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
